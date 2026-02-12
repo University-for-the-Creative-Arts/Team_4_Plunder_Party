@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Start_Screen.umap",
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/Screen_Buttons.uasset",
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/image-here-placeholder.uasset",
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB-Screen_Buttons.uasset",
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB_InfoPage.uasset",
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB_ScreenButtons.uasset",
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/AG.uasset",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Start_Screen.umap",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/Screen_Buttons.uasset"
 			]
