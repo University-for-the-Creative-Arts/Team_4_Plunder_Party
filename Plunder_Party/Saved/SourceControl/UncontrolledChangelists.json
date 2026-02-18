@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Start_Screen.umap",
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/Screen_Buttons.uasset",
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_CamSpring.uasset",
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset",
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/OT/8SP660A4RCYT1KBBPKI698.uasset",
+				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Lvl_ThirdPerson.umap",
 				"C:/Users/Student/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB_minigames.uasset",
 				"C:/Users/Student/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB_ScreenButtons.uasset",
 				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Start_Screen.umap",
@@ -13,9 +20,7 @@
 				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB-Screen_Buttons.uasset",
 				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB_InfoPage.uasset",
 				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/WB_ScreenButtons.uasset",
-				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/AG.uasset",
-				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Start_Screen.umap",
-				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/Screen_Buttons.uasset"
+				"C:/Users/2406616.UCREATIVE/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/AG.uasset"
 			]
 		}
 	]
