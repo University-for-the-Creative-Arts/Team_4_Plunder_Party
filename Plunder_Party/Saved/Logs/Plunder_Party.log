@@ -2175,3 +2175,192 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.23-10.49.36:797][237]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1386.813477
 [2026.02.23-10.49.37:797][240]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.02.23-10.49.37:797][240]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1387.481079, Update Interval: 356.782745
+[2026.02.23-10.54.28:081][655]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.02.23-10.54.28:088][655]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.23-10.54.28:088][655]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.02.23-10.54.28:089][655]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 942 us (total: 189.893 ms)
+[2026.02.23-10.54.28:089][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.23-10.54.28:089][655]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-10.54.28:094][655]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.23-10.54.28:095][655]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 942 us (total: 2.831 ms)
+[2026.02.23-10.54.28:095][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006632s)
+[2026.02.23-10.54.28:095][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006672s)
+[2026.02.23-10.54.28:123][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2026.02.23-10.54.28:125][655]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.02.23-10.54.28:126][655]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.23-10.54.28:126][655]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.23-10.54.28:126][655]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.23-10.54.28:126][655]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.23-10.54.28:128][655]LogWorldPartition: Display: WorldPartition initialize took 1.437 ms (total: 288.996 ms)
+[2026.02.23-10.54.28:128][655]LogPlayLevel: PIE: World Init took: (0.003199s)
+[2026.02.23-10.54.28:128][655]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.02.23-10.54.28:128][655]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.23-10.54.28:129][655]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.23-10.54.28:129][655]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.23-10.54.28:129][655]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.23-10.54.28:129][655]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.23-10.54.28:129][655]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.23-10.54.28:129][655]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.23-10.54.28:129][655]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.23-10.54.28:129][655]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.23-10.54.28:129][655]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.23-10.54.28:129][655]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.23-10.54.28:131][655]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.23-10.54.28:188][655]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.23-10.54.28:188][655]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.23-10.54.28:188][655]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.23-10.54.28:188][655]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.23-10.54.28:188][655]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.02.23-10.54.28:188][655]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.02.23-10.54.28:190][655]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.02.23-10.54.28:190][655]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.02.23-10.54.28:190][655]LogInit: FAudioDevice initialized with ID 5.
+[2026.02.23-10.54.28:190][655]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_ThirdPerson'.
+[2026.02.23-10.54.28:190][655]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.02.23-10.54.28:229][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.23-10.54.28:229][655]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.23-10.54.28:232][655]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.02.23-10.54.28
+[2026.02.23-10.54.28:232][655]LogWorld: Bringing up level for play took: 0.002373
+[2026.02.23-10.54.28:234][655]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2026.02.23-10.54.28:239][655]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2026.02.23-10.54.28:239][655]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue in not an UClass
+	BP_ThirdPersonPlayerController_C /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_ThirdPersonPlayerController_C_1
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.BP_ThirdPersonPlayerController_C:ExecuteUbergraph_BP_ThirdPersonPlayerController:01C5
+[2026.02.23-10.54.28:239][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue in not an UClass". Node:  Add Mapping Context Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Player Controller Blueprint:  BP_ThirdPersonPlayerController
+[2026.02.23-10.54.28:239][655]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue_1 in not an UClass
+	BP_ThirdPersonPlayerController_C /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_ThirdPersonPlayerController_C_1
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.BP_ThirdPersonPlayerController_C:ExecuteUbergraph_BP_ThirdPersonPlayerController:012A
+[2026.02.23-10.54.28:239][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue_1 in not an UClass". Node:  Add Mapping Context Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Player Controller Blueprint:  BP_ThirdPersonPlayerController
+[2026.02.23-10.54.28:242][655]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue in not an UClass
+	BP_ThirdPersonPlayerController_C /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_ThirdPersonPlayerController_C_2
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.BP_ThirdPersonPlayerController_C:ExecuteUbergraph_BP_ThirdPersonPlayerController:01C5
+[2026.02.23-10.54.28:242][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue in not an UClass". Node:  Add Mapping Context Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Player Controller Blueprint:  BP_ThirdPersonPlayerController
+[2026.02.23-10.54.28:242][655]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue_1 in not an UClass
+	BP_ThirdPersonPlayerController_C /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_ThirdPersonPlayerController_C_2
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.BP_ThirdPersonPlayerController_C:ExecuteUbergraph_BP_ThirdPersonPlayerController:012A
+[2026.02.23-10.54.28:242][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue_1 in not an UClass". Node:  Add Mapping Context Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Player Controller Blueprint:  BP_ThirdPersonPlayerController
+[2026.02.23-10.54.28:245][655]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue in not an UClass
+	BP_ThirdPersonPlayerController_C /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_ThirdPersonPlayerController_C_3
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.BP_ThirdPersonPlayerController_C:ExecuteUbergraph_BP_ThirdPersonPlayerController:01C5
+[2026.02.23-10.54.28:245][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue in not an UClass". Node:  Add Mapping Context Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Player Controller Blueprint:  BP_ThirdPersonPlayerController
+[2026.02.23-10.54.28:245][655]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue_1 in not an UClass
+	BP_ThirdPersonPlayerController_C /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_ThirdPersonPlayerController_C_3
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.BP_ThirdPersonPlayerController_C:ExecuteUbergraph_BP_ThirdPersonPlayerController:012A
+[2026.02.23-10.54.28:245][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetLocalPlayerSubsystem_ReturnValue_1 in not an UClass". Node:  Add Mapping Context Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Player Controller Blueprint:  BP_ThirdPersonPlayerController
+[2026.02.23-10.54.28:251][655]PIE: Server logged in
+[2026.02.23-10.54.28:252][655]PIE: Play in editor total start time 0.165 seconds.
+[2026.02.23-10.54.28:327][656]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.23-10.55.05:415][957]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2026.02.23-10.55.47:161][610]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Levels/Lvl_ThirdPerson"
+[2026.02.23-10.55.47:161][610]LogNet: Browse: /Game/ThirdPerson/Levels/Lvl_ThirdPerson
+[2026.02.23-10.55.47:161][610]LogLoad: LoadMap: /Game/ThirdPerson/Levels/Lvl_ThirdPerson
+[2026.02.23-10.55.47:161][610]LogWorld: BeginTearingDown for /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-10.55.47:164][610]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-10.55.47:165][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-10.55.47:165][610]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.02.23-10.55.47:220][610]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.23-10.55.47:223][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.02.23-10.55.47:224][610]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-10.55.47:230][610]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.23-10.55.47:231][610]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 923 us (total: 3.754 ms)
+[2026.02.23-10.55.47:231][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006380s)
+[2026.02.23-10.55.47:231][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006425s)
+[2026.02.23-10.55.47:231][610]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_ThirdPerson'.
+[2026.02.23-10.55.47:231][610]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.02.23-10.55.47:232][610]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.23-10.55.47:232][610]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.23-10.55.47:232][610]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.23-10.55.47:232][610]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.23-10.55.47:234][610]LogWorldPartition: Display: WorldPartition initialize took 1.282 ms (total: 290.278 ms)
+[2026.02.23-10.55.47:234][610]LogPlayLevel: PIE: World Init took: (0.002755s)
+[2026.02.23-10.55.47:234][610]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.23-10.55.47:236][610]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.02.23-10.55.47
+[2026.02.23-10.55.47:236][610]LogWorld: Bringing up level for play took: 0.001580
+[2026.02.23-10.55.47:246][610]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2026.02.23-10.55.47:246][610]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 1,
+[2026.02.23-10.55.47:246][610]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 2,
+[2026.02.23-10.55.47:246][610]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 3,
+[2026.02.23-10.55.47:246][610]LogLoad: Took 0.083502 seconds to LoadMap(/Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson)
+[2026.02.23-10.55.47:246][610]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-10.55.47:253][610]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.23-10.55.56:447][704]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1766.468018
+[2026.02.23-10.55.56:618][724]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.23-10.55.56:618][724]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1766.625977, Update Interval: 356.161987
+[2026.02.23-10.55.59:858][111]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2026.02.23-11.00.35:051][762]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Levels/Lvl_ThirdPerson"
+[2026.02.23-11.00.35:051][762]LogNet: Browse: /Game/ThirdPerson/Levels/Lvl_ThirdPerson
+[2026.02.23-11.00.35:051][762]LogLoad: LoadMap: /Game/ThirdPerson/Levels/Lvl_ThirdPerson
+[2026.02.23-11.00.35:051][762]LogWorld: BeginTearingDown for /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-11.00.35:053][762]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-11.00.35:054][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-11.00.35:054][762]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.02.23-11.00.35:075][762]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.23-11.00.35:079][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2026.02.23-11.00.35:080][762]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-11.00.35:086][762]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.23-11.00.35:087][762]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 984 us (total: 4.738 ms)
+[2026.02.23-11.00.35:087][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006781s)
+[2026.02.23-11.00.35:087][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006833s)
+[2026.02.23-11.00.35:087][762]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_ThirdPerson'.
+[2026.02.23-11.00.35:087][762]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.02.23-11.00.35:089][762]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.23-11.00.35:089][762]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.23-11.00.35:089][762]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.23-11.00.35:089][762]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.23-11.00.35:091][762]LogWorldPartition: Display: WorldPartition initialize took 1.404 ms (total: 291.683 ms)
+[2026.02.23-11.00.35:091][762]LogPlayLevel: PIE: World Init took: (0.003152s)
+[2026.02.23-11.00.35:091][762]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.23-11.00.35:093][762]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.02.23-11.00.35
+[2026.02.23-11.00.35:093][762]LogWorld: Bringing up level for play took: 0.001763
+[2026.02.23-11.00.35:103][762]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2026.02.23-11.00.35:103][762]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 1,
+[2026.02.23-11.00.35:103][762]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 2,
+[2026.02.23-11.00.35:103][762]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 3,
+[2026.02.23-11.00.35:103][762]LogLoad: Took 0.052770 seconds to LoadMap(/Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson)
+[2026.02.23-11.00.35:103][762]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-11.00.35:112][762]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.23-11.00.50:737][526]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2026.02.23-11.01.04:390][961]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Levels/Lvl_ThirdPerson"
+[2026.02.23-11.01.04:390][961]LogNet: Browse: /Game/ThirdPerson/Levels/Lvl_ThirdPerson
+[2026.02.23-11.01.04:390][961]LogLoad: LoadMap: /Game/ThirdPerson/Levels/Lvl_ThirdPerson
+[2026.02.23-11.01.04:390][961]LogWorld: BeginTearingDown for /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-11.01.04:393][961]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-11.01.04:393][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-11.01.04:394][961]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.02.23-11.01.04:447][961]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.23-11.01.04:452][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.02.23-11.01.04:452][961]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-11.01.04:458][961]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.23-11.01.04:459][961]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 944 us (total: 5.682 ms)
+[2026.02.23-11.01.04:459][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006576s)
+[2026.02.23-11.01.04:459][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006645s)
+[2026.02.23-11.01.04:459][961]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_ThirdPerson'.
+[2026.02.23-11.01.04:459][961]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.02.23-11.01.04:460][961]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.23-11.01.04:460][961]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.23-11.01.04:460][961]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.23-11.01.04:460][961]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.23-11.01.04:462][961]LogWorldPartition: Display: WorldPartition initialize took 1.284 ms (total: 292.967 ms)
+[2026.02.23-11.01.04:462][961]LogPlayLevel: PIE: World Init took: (0.002743s)
+[2026.02.23-11.01.04:462][961]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.23-11.01.04:464][961]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.02.23-11.01.04
+[2026.02.23-11.01.04:464][961]LogWorld: Bringing up level for play took: 0.001559
+[2026.02.23-11.01.04:473][961]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2026.02.23-11.01.04:473][961]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 1,
+[2026.02.23-11.01.04:474][961]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 2,
+[2026.02.23-11.01.04:474][961]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 3,
+[2026.02.23-11.01.04:474][961]LogLoad: Took 0.083076 seconds to LoadMap(/Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson)
+[2026.02.23-11.01.04:474][961]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_ThirdPerson
+[2026.02.23-11.01.04:481][961]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.23-11.01.19:209][707]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2026.02.23-11.02.43:910][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2173.928955
+[2026.02.23-11.02.44:892][465]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.23-11.02.44:892][465]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2174.584717, Update Interval: 309.964905
