@@ -5793,3 +5793,45 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.23-09.15.17:448][312]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
 [2026.02.23-09.15.17:449][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2026.02.23-09.15.18:698][312]LogSlate: Window 'Plunder_Party - Unreal Editor' being destroyed
+[2026.02.23-09.15.32:782][312]LogUObjectHash: Compacting FUObjectHashTables data took  26.11ms
+[2026.02.23-09.15.33:135][312]LogAutomationController: Ignoring very large delta of 21.16 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.23-09.15.33:205][312]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4996.821289
+[2026.02.23-09.15.33:294][312]Cmd: QUIT_EDITOR
+[2026.02.23-09.15.33:297][312]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.02.23-09.15.33:430][313]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.02.23-09.15.33:449][313]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.02.23-09.15.33:451][313]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.02.23-09.15.33:608][313]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.33:638][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.33:641][313]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Levels/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.02.23-09.15.33:843][313]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.02.23-09.15.33:861][313]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.02.23-09.15.33:911][313]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.02.23-09.15.34:464][313]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.34:464][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.34:487][313]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.34:492][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.34:510][313]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.34:525][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.34:533][313]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.34:533][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.34:596][313]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.02.23-09.15.34:606][313]LogHttp: Warning: 000001A9D7CFD900: request failed, libcurl error: 6 (Could not resolve hostname)
+[2026.02.23-09.15.34:607][313]LogHttp: Warning: 000001A9D7CFD900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.23-09.15.34:607][313]LogHttp: Warning: 000001A9D7CFD900: libcurl info message cache 1 (shutting down connection #44)
+[2026.02.23-09.15.34:607][313]LogHttp: Warning: 000001A9D7CFD900 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B59E67003-4047-B3C4-CA68-C79912F1094E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=b4b7b1d743b12a558a206cadc5554184%7C8bfd98e5d1e74fd5ad4631e366a619be%7C721122e4-1e68-415e-b64a-67e9051fc1dd&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 1.05s
+[2026.02.23-09.15.34:609][313]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.02.23-09.15.34:659][313]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.02.23-09.15.35:694][313]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.02.23-09.15.35:695][313]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.02.23-09.15.35:696][313]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.02.23-09.15.35:700][313]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.02.23-09.15.35:713][313]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.02.23-09.15.35:757][313]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.02.23-09.15.35:946][313]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.02.23-09.15.35:949][313]LogAudio: Display: Audio Device Manager Shutdown
+[2026.02.23-09.15.36:038][313]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.02.23-09.15.36:039][313]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2026.02.23-09.15.36:039][313]LogSlate: Slate User Destroyed.  User Index 2, Is Virtual User: 0
+[2026.02.23-09.15.36:039][313]LogSlate: Slate User Destroyed.  User Index 3, Is Virtual User: 0
+[2026.02.23-09.15.36:051][313]LogExit: Preparing to exit.
