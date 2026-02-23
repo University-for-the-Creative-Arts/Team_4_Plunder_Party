@@ -5778,3 +5778,18 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.23-09.14.52:937][231]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
 [2026.02.23-09.14.53:622][232]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
 [2026.02.23-09.14.53:623][232]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 30.797449 seconds
+[2026.02.23-09.15.04:544][265]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.007 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.23-09.15.12:512][312]LogUObjectHash: Compacting FUObjectHashTables data took  16.47ms
+[2026.02.23-09.15.12:837][312]LogStall: Shutdown...
+[2026.02.23-09.15.12:839][312]LogStall: Shutdown complete.
+[2026.02.23-09.15.15:177][312]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.15:225][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.15:332][312]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.15:333][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.16:631][312]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.16:632][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.16:663][312]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.16:664][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.17:448][312]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-09.15.17:449][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-09.15.18:698][312]LogSlate: Window 'Plunder_Party - Unreal Editor' being destroyed
