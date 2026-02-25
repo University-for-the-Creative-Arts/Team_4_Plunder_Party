@@ -1449,3 +1449,755 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
 		NumGeometrySegments changed: current: 0 - new: 512
 [2026.02.25-12.30.36:700][438]LogDerivedDataCache: C:/Users/2505924/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: ================================================
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Total job queries 376, among them cache hits 20 (5.32%), DDC hits 287 (76.33%), Duplicates 64 (17.02%)
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Tracking 292 distinct input hashes that result in 207 distinct outputs (70.89%)
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: RAM used: 3.02 MiB of 1.60 GiB budget. Usage: 0.18%
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Shaders Compiled: 5
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Average time worker was idle: 23.63 s
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.08 s
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Job execution time: average 0.69 s, max 0.94 s
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Job life time (pending + execution): average 0.76 s, max 1.01
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Shader code size: total 46.43 KiB, numShaders 5, average 9.285 KiB, min 7.355 KiB, max 13.762 KiB
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.82 s
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Average processing rate: 2.75 jobs/sec
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Total thread time: 1.856 s
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Total thread preprocess time: 4.469 s
+[2026.02.25-12.31.48:296][876]LogShaderCompilers: Display: Percentage time preprocessing: 240.86%
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Effective parallelization: 1.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.085056
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.40 sec, max 0.41 sec, min 0.39 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 43.26% of total time (compiled    2 times, average 0.40 sec, max 0.41 sec, min 0.39 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 35.45% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.29% of total time (compiled    2 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display:                                             FDebugViewModePS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: === Material stats ===
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Materials Translated:    138
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Material Translation Only: 0.03 s (41%)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: Material Cache Hits: 11 (8%)
+[2026.02.25-12.31.48:297][876]LogShaderCompilers: Display: ================================================
+[2026.02.25-12.31.50:620][117]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2026.02.25-12.31.50:626][117]LogContentBrowser: Creating deferred item: NewWorld
+[2026.02.25-12.31.50:634][118]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2026.02.25-12.32.09:461][367]LogContentBrowser: Attempting asset rename: NewWorld -> LV_TreasureHuntLevel
+[2026.02.25-12.32.09:461][367]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.02.25-12.32.09:464][367]LogContentBrowser: End creating deferred item NewWorld
+[2026.02.25-12.32.11:868][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.02.25-12.32.14:684][627]LogSlate: Window 'Save Content' being destroyed
+[2026.02.25-12.32.14:692][627]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.25-12.32.14:758][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.02.25-12.32.14:762][627]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/LV_TreasureHuntLevel
+[2026.02.25-12.32.14:762][627]LogSavePackage: Moving '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/LV_TreasureHuntLevel8D722B714289300B951ABA9F93C1C2F6.tmp' to '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/LV_TreasureHuntLevel.umap'
+[2026.02.25-12.32.14:765][627]LogFileHelpers: Saving map 'LV_TreasureHuntLevel' took 0.020
+[2026.02.25-12.32.14:829][627]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.028 ms
+[2026.02.25-12.32.14:830][627]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelPrototyping/LV_TreasureHuntLevel.LV_TreasureHuntLevel
+[2026.02.25-12.32.14:846][627]LogWorld: UWorld::CleanupWorld for Start_Screen, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.32.14:846][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.32.14:920][627]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.25-12.32.14:922][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.02.25-12.32.14:923][627]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.32.14:923][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.32.14:936][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.02.25-12.32.14:948][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.02.25-12.32.14:949][627]LogStreaming: Display: FlushAsyncLoading(340): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.25-12.32.14:951][627]LogAudio: Display: Audio Device (ID: 1) registered with world 'LV_TreasureHuntLevel'.
+[2026.02.25-12.32.14:951][627]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.02.25-12.32.14:964][627]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.25-12.32.14:977][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.02.25-12.32.14:983][627]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.25-12.32.14:983][627]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.045ms to complete.
+[2026.02.25-12.32.15:062][627]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.25-12.32.15:062][627]LogContentValidation: Enabled validators:
+[2026.02.25-12.32.15:062][627]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.25-12.32.15:062][627]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.25-12.32.15:062][627]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.25-12.32.15:062][627]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.25-12.32.15:062][627]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.25-12.32.15:062][627]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.25-12.32.15:063][627]AssetCheck: /Game/LevelPrototyping/LV_TreasureHuntLevel Validating asset
+[2026.02.25-12.32.15:107][627]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.25-12.32.15:179][629]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.25-12.32.16:164][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.02.25-12.32.16:166][725]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelPrototyping/LV_TreasureHuntLevel.LV_TreasureHuntLevel
+[2026.02.25-12.32.16:180][725]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.32.16:180][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.32.16:193][725]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.25-12.32.16:194][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.02.25-12.32.16:195][725]LogStreaming: Display: FlushAsyncLoading(341): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.25-12.32.16:197][725]LogAudio: Display: Audio Device (ID: 1) registered with world 'LV_TreasureHuntLevel'.
+[2026.02.25-12.32.16:197][725]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.02.25-12.32.16:209][725]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.25-12.32.16:223][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.02.25-12.32.16:227][725]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.25-12.32.16:228][725]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.043ms to complete.
+[2026.02.25-12.32.16:236][725]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.25-12.32.23:308][529]LogStreaming: Display: FlushAsyncLoading(342): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.25-12.32.27:957][  5]LogEditor: Attempting to add actor of class 'SkyLight' to level at 0.00,0.00,0.00
+[2026.02.25-12.32.27:979][  5]LogSlate: Took 0.000529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.02.25-12.32.28:549][ 72]LogEditor: Attempting to add actor of class 'DirectionalLight' to level at 0.00,0.00,0.00
+[2026.02.25-12.32.28:936][113]LogEditor: Attempting to add actor of class 'SkyAtmosphere' to level at 0.00,0.00,0.00
+[2026.02.25-12.32.29:361][159]LogEditor: Attempting to add actor of class 'VolumetricCloud' to level at 0.00,0.00,0.00
+[2026.02.25-12.32.30:203][257]LogEditor: Attempting to add actor of class 'ExponentialHeightFog' to level at 0.00,0.00,0.00
+[2026.02.25-12.32.32:498][521]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2026.02.25-12.32.32:505][521]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2026.02.25-12.32.36:396][978]LogInteractiveToolsContext: Display: Select grid cells and push/pull them to create geometry. Refer to side panel for shortcuts.
+[2026.02.25-12.32.36:396][978]LogStreaming: Display: FlushAsyncLoading(353): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.25-12.32.36:413][978]LogInteractiveToolsContext: Warning: Creating new asset.
+[2026.02.25-12.32.47:907][303]LogPSOHitching: Encountered 50 PSO creation hitches so far (23 graphics, 27 compute). 0 of them were precached.
+[2026.02.25-12.32.53:649][985]Cmd: TRANSACTION UNDO
+[2026.02.25-12.32.53:649][985]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.32.54:140][995]Cmd: TRANSACTION UNDO
+[2026.02.25-12.32.54:140][995]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.07:428][550]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.07:428][550]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.18:068][759]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.18:068][759]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.18:374][765]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.18:374][765]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.18:590][769]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.18:590][769]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.18:902][801]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.18:902][801]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.19:203][836]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.19:203][836]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.42:514][599]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.42:514][599]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.33.43:060][611]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.43:060][611]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.43:396][650]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.43:396][650]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.43:701][686]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.43:701][686]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.44:012][723]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.44:012][723]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.44:380][767]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.44:380][767]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.33.45:004][840]Cmd: TRANSACTION UNDO
+[2026.02.25-12.33.45:004][840]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.09:928][770]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.09:928][770]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.10:323][778]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.10:323][778]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.10:493][783]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.10:493][783]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.10:705][808]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.10:705][808]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.10:898][831]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.10:898][831]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.11:125][858]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.11:125][858]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.44:909][725]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.44:909][725]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.45:223][731]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.45:223][731]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.45:479][735]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.45:479][735]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.45:552][739]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.45:552][739]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.45:720][759]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.45:720][759]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.45:878][777]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.45:878][777]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.46:064][799]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.46:064][799]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.46:112][804]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 363.970398
+[2026.02.25-12.34.46:263][822]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.25-12.34.46:263][822]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 364.113251, Update Interval: 327.534424
+[2026.02.25-12.34.46:306][828]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.46:306][828]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.46:610][864]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.46:610][864]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.46:929][902]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.46:929][902]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.47:216][936]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.47:216][936]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.47:477][967]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.47:477][967]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.47:745][999]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.47:745][999]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.34.48:091][ 40]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.48:091][ 40]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.48:455][ 82]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.48:455][ 82]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.48:778][ 88]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.48:778][ 88]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.48:995][ 92]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.48:996][ 92]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.49:198][113]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.49:198][113]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.49:411][138]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.49:411][138]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.49:629][164]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.49:629][164]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.49:881][194]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.49:881][194]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.50:193][231]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.50:193][231]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.34.50:464][263]Cmd: TRANSACTION UNDO
+[2026.02.25-12.34.50:464][263]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.35.06:878][171]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.06:878][171]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.07:188][177]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.07:188][177]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.07:354][180]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.07:354][180]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.07:513][190]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.07:513][190]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.43:749][400]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.43:749][400]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.43:989][405]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.43:989][405]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.45:397][538]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.45:397][538]LogEditorTransaction: Undo Move Elements
+[2026.02.25-12.35.45:623][564]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.45:623][564]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.46:346][647]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.46:346][647]LogEditorTransaction: Undo Move Elements
+[2026.02.25-12.35.46:534][668]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.46:534][668]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.46:712][688]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.46:712][688]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.46:882][705]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.46:882][705]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.47:069][727]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.47:069][727]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.47:762][805]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.47:762][805]LogEditorTransaction: Undo Move Elements
+[2026.02.25-12.35.48:077][811]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.48:077][811]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.48:686][861]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.48:686][861]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.48:871][882]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.48:871][882]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.49:031][900]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.49:031][900]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.49:198][920]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.49:198][920]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.49:385][941]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.49:385][941]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.49:596][965]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.49:596][965]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.49:783][986]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.49:783][986]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.50:013][ 12]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.50:013][ 12]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.50:224][ 37]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.50:224][ 37]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.50:446][ 63]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.50:446][ 63]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.50:667][ 88]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.50:667][ 88]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.50:879][112]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.50:879][112]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.51:091][136]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.51:091][136]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.51:299][159]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.51:299][159]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.51:577][165]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.51:577][165]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.51:792][169]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.51:792][169]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.51:955][181]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.51:955][181]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.52:157][205]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.52:157][205]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.52:411][235]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.52:411][235]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.52:613][259]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.52:613][259]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.35.52:889][292]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.52:889][292]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.35.53:200][329]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.53:200][329]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.53:506][365]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.53:506][365]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.53:751][394]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.53:751][394]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.35.53:987][422]Cmd: TRANSACTION UNDO
+[2026.02.25-12.35.53:987][422]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.36.44:098][109]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.25-12.36.44:107][109]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/_GENERATED/2505924/CubeGridToolOutput_B004B126.CubeGridToolOutput_B004B126
+[2026.02.25-12.36.44:108][109]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_B004B126 (Required Memory Estimate: 1.590504 MB)...
+[2026.02.25-12.36.44:108][109]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/_GENERATED/2505924/CubeGridToolOutput_B004B126.CubeGridToolOutput_B004B126 as actor: StaticMeshActor /Game/LevelPrototyping/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.StaticMeshActor_0
+[2026.02.25-12.36.44:112][109]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/_GENERATED/2505924/CubeGridToolOutput_B004B126.CubeGridToolOutput_B004B126
+[2026.02.25-12.36.44:114][109]LogStaticMesh: Warning: CubeGridToolOutput_B004B126 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.02.25-12.36.44:114][109]LogStaticMesh: Warning: CubeGridToolOutput_B004B126 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.02.25-12.36.45:159][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.25-12.36.45:188][109]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.02.25-12.36.45:188][109]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.02.25-12.36.45:188][109]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/UEDPIE_0_LV_TreasureHuntLevel
+[2026.02.25-12.36.45:189][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001887s)
+[2026.02.25-12.36.45:189][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.001951s)
+[2026.02.25-12.36.45:226][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.02.25-12.36.45:228][109]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.02.25-12.36.45:230][109]LogPlayLevel: PIE: World Init took: (0.002122s)
+[2026.02.25-12.36.45:231][109]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.25-12.36.45:231][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.25-12.36.45:231][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.25-12.36.45:231][109]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.25-12.36.45:231][109]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.25-12.36.45:231][109]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.25-12.36.45:235][109]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.25-12.36.45:341][109]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.25-12.36.45:341][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.25-12.36.45:341][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.25-12.36.45:341][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.25-12.36.45:342][109]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.02.25-12.36.45:342][109]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.02.25-12.36.45:345][109]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.02.25-12.36.45:345][109]LogInit: FAudioDevice initialized with ID 2.
+[2026.02.25-12.36.45:345][109]LogAudio: Display: Audio Device (ID: 2) registered with world 'LV_TreasureHuntLevel'.
+[2026.02.25-12.36.45:345][109]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.02.25-12.36.45:345][109]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.25-12.36.45:352][109]LogStreaming: Display: FlushAsyncLoading(356): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.25-12.36.45:899][109]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.25-12.36.45:900][109]LogWorld: Bringing World /Game/LevelPrototyping/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.02.25-12.36.45
+[2026.02.25-12.36.45:900][109]LogWorld: Bringing up level for play took: 0.000753
+[2026.02.25-12.36.45:904][109]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.02.25-12.36.45:938][109]PIE: Server logged in
+[2026.02.25-12.36.45:941][109]PIE: Play in editor total start time 1.839 seconds.
+[2026.02.25-12.36.45:997][110]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.25-12.36.46:143][113]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, CubeGridToolOutput_B004B126
+[2026.02.25-12.36.47:952][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.25-12.36.47:952][309]LogWorld: BeginTearingDown for /Game/LevelPrototyping/UEDPIE_0_LV_TreasureHuntLevel
+[2026.02.25-12.36.47:953][309]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.36.47:953][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.36.47:955][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.25-12.36.47:957][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.36.47:968][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.25-12.36.47:968][309]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.25-12.36.47:968][309]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.02.25-12.36.47:970][309]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.02.25-12.36.47:975][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.02.25-12.36.48:026][310]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.02.25-12.36.55:157][120]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.02.25-12.36.55:328][124]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.02.25-12.37.07:302][492]Cmd: TRANSACTION UNDO
+[2026.02.25-12.37.07:302][492]LogEditorTransaction: Undo Clicking on Elements
+[2026.02.25-12.37.18:225][654]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.25-12.37.18:233][654]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.25-12.37.18:244][655]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.25-12.37.29:557][994]LogContentBrowser: Attempting asset rename: NewFolder -> TreasureHuntLevel
+[2026.02.25-12.37.29:557][994]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.25-12.37.35:279][426]LogSlate: Window 'Message' being destroyed
+[2026.02.25-12.37.35:282][426]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+LV_TreasureHuntLevel
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2026.02.25-12.37.35:303][426]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.25-12.37.35:340][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.02.25-12.37.35:348][426]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel
+[2026.02.25-12.37.35:348][426]LogSavePackage: Moving '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/LV_TreasureHuntLevelEF5E3E704729C8B967DF3F868B24B374.tmp' to '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.umap'
+[2026.02.25-12.37.35:367][426]LogFileHelpers: Saving map 'LV_TreasureHuntLevel' took 0.063
+[2026.02.25-12.37.35:367][426]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/LV_TreasureHuntLevel] ([1] browsable assets)...
+[2026.02.25-12.37.35:367][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/LV_TreasureHuntLevel]
+[2026.02.25-12.37.35:372][426]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/LV_TreasureHuntLevel
+[2026.02.25-12.37.35:373][426]LogSavePackage: Moving '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/LV_TreasureHuntLevel42CFBE4B42A1BA8A72CE9FBA78FD19B3.tmp' to '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/LV_TreasureHuntLevel.umap'
+[2026.02.25-12.37.35:374][426]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.191 ms (total: 207.220 ms)
+[2026.02.25-12.37.35:396][426]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.02.25-12.37.35:396][426]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.25-12.37.35:396][426]LogContentValidation: Enabled validators:
+[2026.02.25-12.37.35:396][426]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.25-12.37.35:396][426]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.25-12.37.35:396][426]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.25-12.37.35:396][426]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.25-12.37.35:396][426]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.25-12.37.35:396][426]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.25-12.37.35:396][426]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
+[2026.02.25-12.37.35:396][426]AssetCheck: /Game/LevelPrototyping/LV_TreasureHuntLevel Validating asset
+[2026.02.25-12.37.35:411][426]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.25-12.37.41:030][ 86]Cmd: DELETE
+[2026.02.25-12.37.41:030][ 86]Cmd: ACTOR DELETE
+[2026.02.25-12.37.41:032][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.02.25-12.37.41:046][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.25-12.37.41:048][ 86]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2026.02.25-12.37.50:826][250]LogInteractiveToolsContext: Display: Select grid cells and push/pull them to create geometry. Refer to side panel for shortcuts.
+[2026.02.25-12.37.50:829][250]LogInteractiveToolsContext: Warning: Creating new asset.
+[2026.02.25-12.39.04:031][721]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.04:032][721]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.31:597][859]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.31:597][859]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.32:032][868]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.32:032][868]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.32:627][926]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.32:627][926]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.33:211][995]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.33:211][995]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.48:375][747]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.48:375][747]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.48:622][752]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.48:622][752]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.48:759][754]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.48:759][754]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.48:941][757]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.48:941][757]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.50:104][890]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.50:104][890]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.50:222][904]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.50:223][904]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.51:918][106]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.51:918][106]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.52:138][111]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:138][111]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.52:241][113]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:241][113]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.52:391][116]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:391][116]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.52:473][118]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:473][118]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.52:525][123]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:525][123]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.52:610][133]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:610][133]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.52:693][143]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:693][143]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.52:785][154]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:785][154]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.52:859][163]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:859][163]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.52:969][176]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.52:969][176]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.53:045][185]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:045][185]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.53:136][196]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:136][196]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.53:237][208]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:237][208]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:329][219]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:329][219]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:395][227]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:395][227]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:490][238]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:490][238]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:565][247]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:565][247]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:674][260]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:674][260]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:756][270]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:756][270]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:858][282]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:858][282]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.53:949][293]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.53:949][293]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:043][304]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:043][304]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:234][327]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:234][327]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.54:301][335]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:301][335]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:402][347]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:402][347]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.54:480][356]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:480][356]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:579][368]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:579][368]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.54:672][379]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:672][379]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:756][389]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:756][389]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:858][401]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:858][401]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.54:949][412]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.54:949][412]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.55:050][424]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:050][424]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:117][432]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:117][432]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:199][442]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:199][442]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:286][452]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:286][452]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:361][461]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:361][461]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:442][470]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:442][470]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.55:557][473]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:557][473]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:677][475]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:677][475]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:792][477]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:792][477]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:863][478]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:863][478]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.55:976][480]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.55:976][480]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:092][491]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:092][491]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:241][509]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:241][509]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:325][519]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:325][519]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:400][528]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:400][528]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:501][540]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:502][540]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:668][560]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:668][560]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.56:769][572]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:769][572]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.56:860][583]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.56:860][583]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.57:178][621]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:178][621]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.57:262][631]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:262][631]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.57:362][643]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:362][643]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.57:504][660]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:504][660]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.57:579][669]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:579][669]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.57:696][683]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:696][683]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.57:779][693]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:779][693]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.57:871][704]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.57:871][704]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.58:155][738]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.58:155][738]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.58:247][749]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.58:247][749]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.58:339][760]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.58:339][760]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.58:648][797]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.58:648][797]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.39.58:890][826]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.58:890][826]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.59:218][864]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.59:218][864]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.59:391][868]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.59:391][868]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.59:544][871]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.59:544][871]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.59:744][875]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.59:744][875]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.39.59:819][881]Cmd: TRANSACTION UNDO
+[2026.02.25-12.39.59:819][881]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.00:223][929]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.00:223][929]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.00:373][947]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.00:373][947]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.00:564][970]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.00:564][970]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.00:740][991]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.00:740][991]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.00:941][ 15]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.00:941][ 15]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.01:134][ 38]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.01:135][ 38]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.40.01:334][ 62]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.01:334][ 62]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.02.25-12.40.01:536][ 86]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.01:536][ 86]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.01:836][122]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.01:836][122]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.02:012][143]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.02:012][143]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.02:187][164]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.02:187][164]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.02:362][185]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.02:362][185]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.02:562][209]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.02:562][209]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.02:765][232]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.02:765][232]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.03:099][239]Cmd: TRANSACTION UNDO
+[2026.02.25-12.40.03:099][239]LogEditorTransaction: Undo Block Tool Change
+[2026.02.25-12.40.17:306][910]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 695.163879
+[2026.02.25-12.40.17:447][927]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.25-12.40.17:447][928]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 695.297363, Update Interval: 324.514893
+[2026.02.25-12.41.37:417][170]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.CubeGridToolOutput_2BB5AC7D
+[2026.02.25-12.41.37:418][170]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.CubeGridToolOutput_2BB5AC7D as actor: StaticMeshActor /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.StaticMeshActor_1
+[2026.02.25-12.41.37:418][170]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_2BB5AC7D (Required Memory Estimate: 4.822614 MB)...
+[2026.02.25-12.41.37:431][170]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.CubeGridToolOutput_2BB5AC7D
+[2026.02.25-12.41.37:434][170]LogStaticMesh: Warning: CubeGridToolOutput_2BB5AC7D has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.02.25-12.41.37:434][170]LogStaticMesh: Warning: CubeGridToolOutput_2BB5AC7D has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.02.25-12.41.38:656][170]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 68% occupied, 0 triangles, CubeGridToolOutput_2BB5AC7D
+[2026.02.25-12.41.40:003][286]LogMeshUtilities: Finished distance field build in 1.3s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 68% occupied, 0 triangles, CubeGridToolOutput_2BB5AC7D
+[2026.02.25-12.41.43:618][657]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.CubeGridToolOutput_2BB5AC7D
+[2026.02.25-12.41.43:688][657]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.02.25-12.41.43:696][657]LogStreaming: Display: FlushAsyncLoading(357): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.25-12.41.55:518][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.25-12.41.55:565][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D] ([1] browsable assets)...
+[2026.02.25-12.41.55:571][796]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.CubeGridToolOutput_2BB5AC7D]
+[2026.02.25-12.41.55:571][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D]
+[2026.02.25-12.41.55:581][796]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D
+[2026.02.25-12.41.55:581][796]LogSavePackage: Moving '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/CubeGridToolOutput_2BB5AC7DC95E543F4D745B10EA1C20ADE844410B.tmp' to '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.uasset'
+[2026.02.25-12.41.55:589][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.926 ms (total: 279.147 ms)
+[2026.02.25-12.41.55:648][796]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.25-12.41.55:648][796]LogContentValidation: Enabled validators:
+[2026.02.25-12.41.55:648][796]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.25-12.41.55:648][796]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.25-12.41.55:648][796]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.25-12.41.55:648][796]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.25-12.41.55:648][796]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.25-12.41.55:648][796]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.25-12.41.55:648][796]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D Validating asset
+[2026.02.25-12.41.55:671][796]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.25-12.41.56:701][903]LogSlate: Window 'CubeGridToolOutput_2BB5AC7D' being destroyed
+[2026.02.25-12.41.56:705][903]LogSlate: Window 'CubeGridToolOutput_2BB5AC7D' being destroyed
+[2026.02.25-12.41.56:772][903]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.41.56:772][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.41.56:805][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.02.25-12.41.58:737][117]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.25-12.41.58:743][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.25-12.41.58:782][117]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.02.25-12.41.58:783][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001277s)
+[2026.02.25-12.41.58:783][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.001318s)
+[2026.02.25-12.41.58:808][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.02.25-12.41.58:808][117]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.02.25-12.41.58:810][117]LogPlayLevel: PIE: World Init took: (0.001473s)
+[2026.02.25-12.41.58:810][117]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.25-12.41.58:810][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.25-12.41.58:810][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.25-12.41.58:810][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.25-12.41.58:810][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.25-12.41.58:810][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.25-12.41.58:812][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.25-12.41.58:871][117]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.25-12.41.58:871][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.25-12.41.58:871][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.25-12.41.58:871][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.25-12.41.58:871][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.02.25-12.41.58:871][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.02.25-12.41.58:873][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.02.25-12.41.58:873][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.02.25-12.41.58:873][117]LogInit: FAudioDevice initialized with ID 3.
+[2026.02.25-12.41.58:873][117]LogAudio: Display: Audio Device (ID: 3) registered with world 'LV_TreasureHuntLevel'.
+[2026.02.25-12.41.58:873][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.02.25-12.41.58:878][117]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.25-12.41.58:878][117]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.02.25-12.41.58
+[2026.02.25-12.41.58:878][117]LogWorld: Bringing up level for play took: 0.000489
+[2026.02.25-12.41.58:880][117]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2026.02.25-12.41.58:884][117]PIE: Server logged in
+[2026.02.25-12.41.58:886][117]PIE: Play in editor total start time 0.143 seconds.
+[2026.02.25-12.41.58:922][118]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.25-12.42.02:712][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.25-12.42.02:712][555]LogWorld: BeginTearingDown for /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.02.25-12.42.02:712][555]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.42.02:713][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.42.02:714][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.25-12.42.02:716][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.42.02:743][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.25-12.42.02:743][555]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.02.25-12.42.02:743][555]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.02.25-12.42.02:745][555]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.02.25-12.42.02:752][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.25-12.42.02:804][556]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2026.02.25-12.42.25:045][109]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.02.25-12.42.28:061][445]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.02.25-12.42.28:061][445]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.02.25-12.42.28:063][445]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.PlayerStart_0
+[2026.02.25-12.42.28:063][445]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.25-12.42.28:063][445]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.PlayerStart_0
+[2026.02.25-12.42.28:063][445]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.25-12.42.28:080][445]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.25-12.42.30:502][729]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.25-12.42.31:836][887]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.25-12.42.34:409][192]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.25-12.42.36:453][424]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.25-12.42.36:458][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.25-12.42.36:502][424]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.02.25-12.42.36:503][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001329s)
+[2026.02.25-12.42.36:503][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.001397s)
+[2026.02.25-12.42.36:531][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.02.25-12.42.36:533][424]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.02.25-12.42.36:534][424]LogPlayLevel: PIE: World Init took: (0.001447s)
+[2026.02.25-12.42.36:535][424]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.25-12.42.36:535][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.25-12.42.36:535][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.25-12.42.36:535][424]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.25-12.42.36:535][424]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.25-12.42.36:535][424]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.25-12.42.36:537][424]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.25-12.42.36:592][424]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.25-12.42.36:592][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.25-12.42.36:592][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.25-12.42.36:592][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.25-12.42.36:593][424]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.02.25-12.42.36:593][424]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.02.25-12.42.36:596][424]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.02.25-12.42.36:596][424]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.02.25-12.42.36:596][424]LogInit: FAudioDevice initialized with ID 4.
+[2026.02.25-12.42.36:596][424]LogAudio: Display: Audio Device (ID: 4) registered with world 'LV_TreasureHuntLevel'.
+[2026.02.25-12.42.36:596][424]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.02.25-12.42.36:601][424]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.25-12.42.36:602][424]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.02.25-12.42.36
+[2026.02.25-12.42.36:602][424]LogWorld: Bringing up level for play took: 0.000528
+[2026.02.25-12.42.36:604][424]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.02.25-12.42.36:607][424]PIE: Server logged in
+[2026.02.25-12.42.36:608][424]PIE: Play in editor total start time 0.152 seconds.
+[2026.02.25-12.42.36:646][425]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.25-12.43.15:122][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.25-12.43.15:122][ 30]LogWorld: BeginTearingDown for /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.02.25-12.43.15:123][ 30]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.02.25-12.43.15:123][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.43.15:126][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.25-12.43.15:128][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.25-12.43.15:139][ 30]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.25-12.43.15:140][ 30]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.02.25-12.43.15:140][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.02.25-12.43.15:142][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.02.25-12.43.15:146][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.25-12.43.15:148][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.25-12.43.15:201][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.02.25-12.43.24:771][165]Cmd: SELECT NONE
+[2026.02.25-12.43.25:955][305]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.25-12.43.26:029][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.02.25-12.43.26:039][305]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel
+[2026.02.25-12.43.26:039][305]LogSavePackage: Moving '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/LV_TreasureHuntLevelC4B598874B59A1706356F9A1AEB2CCC6.tmp' to '../../../../../../Users/2505924/OneDrive - University for the Creative Arts/Plunderparty/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.umap'
+[2026.02.25-12.43.26:049][305]LogFileHelpers: Saving map 'LV_TreasureHuntLevel' took 0.049
+[2026.02.25-12.43.26:060][305]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.645 ms (total: 382.792 ms)
+[2026.02.25-12.43.26:115][305]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.25-12.43.26:115][305]LogContentValidation: Enabled validators:
+[2026.02.25-12.43.26:115][305]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.25-12.43.26:115][305]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.25-12.43.26:115][305]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.25-12.43.26:115][305]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.25-12.43.26:115][305]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.25-12.43.26:115][305]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.25-12.43.26:116][305]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
