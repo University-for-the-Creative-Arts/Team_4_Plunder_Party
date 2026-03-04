@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2507279/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Levels/Start_Screen.umap",
+				"C:/Users/2507279/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/MI_ThirdPersonColWay.uasset",
+				"C:/Users/2507279/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/2507279/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/2507279/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Levels/Layer_0_LayerInfo.uasset",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Start_Screen.umap",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/Screen_Buttons.uasset",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_CamSpring.uasset",

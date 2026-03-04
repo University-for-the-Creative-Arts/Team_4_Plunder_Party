@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{58E3ED45-4833-25CF-EF97-AB9AEE3B3BE2}",
+	"EngineAssociation": "{00C501AD-4782-75B4-6558-6B8194B827F6}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -13,6 +13,26 @@
 		},
 		{
 			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "WaterExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGWaterInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "WaterAdvanced",
+			"Enabled": true
+		},
+		{
+			"Name": "Buoyancy",
 			"Enabled": true
 		}
 	]
