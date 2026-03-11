@@ -2343,3 +2343,26 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.11-01.32.07:499][213]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
 [2026.03.11-01.32.15:135][329]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
 [2026.03.11-01.32.15:135][329]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.32.40:136][404]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] false
+[2026.03.11-01.33.00:141][464]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.33.00:141][464]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.33.25:144][539]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] false
+[2026.03.11-01.33.45:145][599]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.33.45:145][599]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.33.48:149][608]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1413.337646
+[2026.03.11-01.33.49:149][611]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.33.49:149][611]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1414.004517, Update Interval: 335.552856
+[2026.03.11-01.34.10:147][674]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] false
+[2026.03.11-01.34.30:148][734]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.34.30:148][734]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.34.55:148][809]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] false
+[2026.03.11-01.35.15:152][869]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] end of game
+[2026.03.11-01.39.51:853][699]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1777.040161
+[2026.03.11-01.39.52:854][702]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.39.52:854][702]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1777.706787, Update Interval: 356.000854
+[2026.03.11-01.46.42:883][932]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2188.070068
+[2026.03.11-01.46.43:883][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.46.43:883][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2188.736816, Update Interval: 311.261322
+[2026.03.11-01.52.45:587][ 20]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2550.772949
+[2026.03.11-01.52.46:587][ 23]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.52.46:587][ 23]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2551.439941, Update Interval: 350.317078
