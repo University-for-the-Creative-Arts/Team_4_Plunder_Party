@@ -2186,3 +2186,148 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.11-11.12.46:367][583]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
 [2026.03.11-11.12.46:367][583]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
 [2026.03.11-11.12.46:702][584]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 11.872189 seconds
+[2026.03.11-11.12.58:532][836]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 226.835632
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: request failed, libcurl error: 35 (SSL connect error)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 1 (  Trying 104.18.125.108:443...)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 2 (Connected to api.epicgames.dev (104.18.125.108) port 443)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 7 (Closing connection)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: 0000023F78774800: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2026.03.11-11.12.59:197][837]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2026.03.11-11.12.59:197][838]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2026.03.11-11.12.59:530][838]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.477432 seconds
+[2026.03.11-11.13.01:864][846]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 230.168045
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: request failed, libcurl error: 35 (SSL connect error)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 1 (  Trying 104.18.125.108:443...)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 2 (Connected to api.epicgames.dev (104.18.125.108) port 443)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 7 (Closing connection)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: 0000023F78773600: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2026.03.11-11.13.02:530][848]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2026.03.11-11.13.02:865][849]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 7.349589 seconds
+[2026.03.11-11.13.04:205][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.03.11-11.13.05:507][852]LogSlate: Window 'Save Content' being destroyed
+[2026.03.11-11.13.05:558][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-11.13.05:685][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.03.11-11.13.05:766][852]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel
+[2026.03.11-11.13.05:767][852]LogSavePackage: Moving '../../../../../../Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Saved/LV_TreasureHuntLevelC1ED69C14B9108612985E49353F32670.tmp' to '../../../../../../Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.umap'
+[2026.03.11-11.13.05:777][852]LogFileHelpers: Saving map 'LV_TreasureHuntLevel' took 0.159
+[2026.03.11-11.13.05:778][852]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_gmTreasureHuntMode] ([2] browsable assets)...
+[2026.03.11-11.13.05:778][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_gmTreasureHuntMode]
+[2026.03.11-11.13.05:790][852]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_gmTreasureHuntMode
+[2026.03.11-11.13.05:790][852]LogSavePackage: Moving '../../../../../../Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Saved/BP_gmTreasureHuntMode032C7B5F4A39B430E40A03836116EC2A.tmp' to '../../../../../../Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_gmTreasureHuntMode.uasset'
+[2026.03.11-11.13.05:809][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 250.840 ms
+[2026.03.11-11.13.05:851][852]LogStall: Shutdown...
+[2026.03.11-11.13.05:851][852]LogStall: Shutdown complete.
+[2026.03.11-11.13.05:886][852]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-11.13.05:888][852]LogSlate: Window 'Plunder_Party - Unreal Editor' being destroyed
+[2026.03.11-11.13.05:890][852]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.03.11-11.13.05:956][852]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.11-11.13.05:956][852]LogContentValidation: Enabled validators:
+[2026.03.11-11.13.05:956][852]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-11.13.05:956][852]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-11.13.05:956][852]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-11.13.05:956][852]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-11.13.05:956][852]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-11.13.05:956][852]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-11.13.05:956][852]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
+[2026.03.11-11.13.05:956][852]AssetCheck: /Game/ThirdPerson/Blueprints/BP_gmTreasureHuntMode Validating asset
+[2026.03.11-11.13.05:958][852]Cmd: QUIT_EDITOR
+[2026.03.11-11.13.05:958][852]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.03.11-11.13.05:959][852]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.11-11.13.05:965][853]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.03.11-11.13.05:966][853]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.03.11-11.13.05:966][853]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.03.11-11.13.05:967][853]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-11.13.05:971][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-11.13.05:980][853]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.03.11-11.13.05:980][853]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.03.11-11.13.05:980][853]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.03.11-11.13.05:983][853]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-11.13.05:983][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-11.13.05:984][853]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-11.13.05:984][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-11.13.05:984][853]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-11.13.05:984][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-11.13.05:984][853]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-11.13.05:984][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-11.13.05:984][853]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.03.11-11.13.05:984][853]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.03.11-11.13.05:987][853]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.03.11-11.13.06:368][853]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.03.11-11.13.06:368][853]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.03.11-11.13.06:368][853]LogAudio: Display: Audio Device unregistered from world 'LV_TreasureHuntLevel'.
+[2026.03.11-11.13.06:368][853]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.03.11-11.13.06:368][853]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.03.11-11.13.06:370][853]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.03.11-11.13.06:377][853]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.03.11-11.13.06:377][853]LogAudio: Display: Audio Device Manager Shutdown
+[2026.03.11-11.13.06:384][853]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.03.11-11.13.06:384][853]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2026.03.11-11.13.06:384][853]LogSlate: Slate User Destroyed.  User Index 2, Is Virtual User: 0
+[2026.03.11-11.13.06:384][853]LogSlate: Slate User Destroyed.  User Index 3, Is Virtual User: 0
+[2026.03.11-11.13.06:385][853]LogExit: Preparing to exit.
+[2026.03.11-11.13.06:426][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.03.11-11.13.07:178][853]LogEditorDataStorage: Deinitializing
+[2026.03.11-11.13.07:287][853]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.03.11-11.13.07:300][853]LogExit: Editor shut down
+[2026.03.11-11.13.07:303][853]LogExit: Transaction tracking system shut down
+[2026.03.11-11.13.07:381][853]LogExit: Object subsystem successfully closed.
+[2026.03.11-11.13.07:417][853]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.03.11-11.13.07:468][853]LogMemoryProfiler: Shutdown
+[2026.03.11-11.13.07:468][853]LogNetworkingProfiler: Shutdown
+[2026.03.11-11.13.07:468][853]LoadingProfiler: Shutdown
+[2026.03.11-11.13.07:468][853]LogTimingProfiler: Shutdown
+[2026.03.11-11.13.07:468][853]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.03.11-11.13.07:468][853]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.03.11-11.13.07:728][853]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.03.11-11.13.07:728][853]LogNFORDenoise: NFORDenoise function shutting down
+[2026.03.11-11.13.07:728][853]RenderDocPlugin: plugin has been unloaded.
+[2026.03.11-11.13.07:759][853]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.03.11-11.13.07:759][853]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17246C57-47A9-BB11-9399-31A0FFD001A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=d35015784e1bd703909575ac3b464f1d%7C%7C858198d9-69fb-4249-8fdc-5dd300a3cb9c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF99C172A-44C9-C7C6-BF82-65BBDE2F39EE%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: request failed, libcurl error: 35 (SSL connect error)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 1 (  Trying 104.18.125.108:443...)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 2 (Connected to api.epicgames.dev (104.18.125.108) port 443)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 6 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 7 (Closing connection)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F78471E00: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF99C172A-44C9-C7C6-BF82-65BBDE2F39EE%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: request failed, libcurl error: 35 (SSL connect error)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 0 (Found bundle for host: 0x23f30080a20 [serially])
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 2 (  Trying 104.18.125.108:443...)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 3 (Connected to api.epicgames.dev (104.18.125.108) port 443)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 4 (ALPN: curl offers http/1.1)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 6 (Recv failure: Connection was reset)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 7 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 8 (Closing connection)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 9 (Recv failure: Connection was reset)
+[2026.03.11-11.13.10:289][853]LogEOSSDK: Warning: LogHttp: 0000023F7847D200: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2026.03.11-11.13.10:306][853]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.03.11-11.13.10:310][853]LogXGEController: Cleaning working directory: C:/Users/2505924/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.03.11-11.13.10:312][853]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.03.11-11.13.10:312][853]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.03.11-11.13.10:312][853]LogPakFile: Destroying PakPlatformFile
+[2026.03.11-11.13.10:881][853]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.03.11-11.13.10:949][853]LogExit: Exiting.
+[2026.03.11-11.13.10:962][853]Log file closed, 03/11/26 11:13:10
