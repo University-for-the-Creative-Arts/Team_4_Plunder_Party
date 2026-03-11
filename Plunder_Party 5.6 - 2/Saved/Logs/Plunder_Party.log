@@ -1497,3 +1497,849 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.11-01.15.26:190][329]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.03.11-01.15.26:190][329]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.03.11-01.15.26:191][329]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
+[2026.03.11-01.16.13:459][758]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.03.11-01.16.13:649][759]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.03.11-01.16.16:742][ 94]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 361.930237
+[2026.03.11-01.16.16:888][103]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.16.16:888][103]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 362.057587, Update Interval: 358.855560
+[2026.03.11-01.16.22:472][745]LogStreaming: Display: FlushAsyncLoading(561): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.11-01.16.22:785][745]LogStreaming: Display: FlushAsyncLoading(572): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.11-01.16.25:833][ 93]LogInteractiveToolsContext: Display: Select grid cells and push/pull them to create geometry. Refer to side panel for shortcuts.
+[2026.03.11-01.16.25:839][ 93]LogStreaming: Display: FlushAsyncLoading(573): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.11-01.16.25:869][ 93]LogInteractiveToolsContext: Warning: Editing existing asset.
+[2026.03.11-01.16.33:978][953]Cmd: TRANSACTION UNDO
+[2026.03.11-01.16.33:978][953]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.03.11-01.16.34:318][964]Cmd: TRANSACTION UNDO
+[2026.03.11-01.16.34:318][964]LogEditorTransaction: Undo Block Tool Change
+[2026.03.11-01.16.34:511][969]Cmd: TRANSACTION UNDO
+[2026.03.11-01.16.34:511][969]LogEditorTransaction: Undo Block Tool Change
+[2026.03.11-01.16.34:694][986]Cmd: TRANSACTION UNDO
+[2026.03.11-01.16.34:694][986]LogEditorTransaction: Undo Cube Grid Selection Change
+[2026.03.11-01.17.10:644][414]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 76% occupied, 0 triangles, CubeGridToolOutput_2BB5AC7D
+[2026.03.11-01.17.10:645][414]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_2BB5AC7D (Required Memory Estimate: 4.838562 MB)...
+[2026.03.11-01.17.10:658][414]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D.CubeGridToolOutput_2BB5AC7D
+[2026.03.11-01.17.10:661][414]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/TreasureHuntLevel/_GENERATED/2505924/CubeGridToolOutput_2BB5AC7D) ...
+[2026.03.11-01.17.12:577][574]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x63 sparse distance field, 1.7Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, CubeGridToolOutput_2BB5AC7D
+[2026.03.11-01.17.14:298][773]LogStreaming: Display: FlushAsyncLoading(575): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.11-01.17.47:925][650]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.03.11-01.17.47:934][650]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.03.11-01.17.47:940][650]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.03.11-01.17.47:946][650]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2026.03.11-01.17.47:946][650]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2026.03.11-01.17.47:946][650]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.03.11-01.17.47:954][650]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2026.03.11-01.18.24:409][620]Cmd: TRANSACTION UNDO
+[2026.03.11-01.18.24:409][620]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.18.24:710][626]Cmd: TRANSACTION UNDO
+[2026.03.11-01.18.24:710][626]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.18.25:513][694]Cmd: TRANSACTION UNDO
+[2026.03.11-01.18.25:513][694]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.18.26:260][766]Cmd: TRANSACTION UNDO
+[2026.03.11-01.18.26:261][766]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.18.26:536][783]Cmd: TRANSACTION UNDO
+[2026.03.11-01.18.26:536][783]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.18.27:122][825]Cmd: TRANSACTION UNDO
+[2026.03.11-01.18.27:122][825]LogEditorTransaction: Undo Creating New Landscape
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.18.27:173][825]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_0.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.19.10:350][704]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'AssetThumbnail.Border'.'
+[2026.03.11-01.19.15:375][210]Cmd: TRANSACTION UNDO
+[2026.03.11-01.19.15:375][210]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.19.16:254][263]Cmd: TRANSACTION UNDO
+[2026.03.11-01.19.16:254][263]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.19.16:635][277]Cmd: TRANSACTION UNDO
+[2026.03.11-01.19.16:635][277]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.19.20:682][551]Cmd: TRANSACTION UNDO
+[2026.03.11-01.19.20:682][551]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.19.23:721][741]Cmd: TRANSACTION UNDO
+[2026.03.11-01.19.23:721][741]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.19.53:927][259]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2026.03.11-01.19.53:933][259]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.19.56:633][531]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_196 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.19.56:638][531]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_197 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:901][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_182 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:902][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_210 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:905][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_164 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:906][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_212 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:907][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_162 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:909][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_166 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:910][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_198 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.12:911][370]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_214 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.14:328][490]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_226 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.14:329][490]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_228 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.14:332][490]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_230 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:363][605]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.15:363][605]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2026.03.11-01.20.15:381][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_231 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:381][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_229 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:382][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_215 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:383][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_213 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:383][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_211 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:383][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_199 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:384][605]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_183 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:652][612]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.15:652][612]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.15:664][612]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_215 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:665][612]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_213 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.15:665][612]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_199 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:032][634]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.16:032][634]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.16:047][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_167 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:047][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_163 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:048][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_229 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:048][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_231 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:048][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_215 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:050][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_183 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:050][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_213 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:051][634]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_199 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:329][660]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.16:329][660]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.16:346][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_213 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:346][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_215 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:348][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_149 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:349][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_199 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:349][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_183 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:350][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_151 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:350][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_167 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:351][660]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_165 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.16:999][717]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.16:999][717]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.20.17:716][781]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.17:716][781]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.20.17:981][784]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.17:981][784]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.18:064][784]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.32:650][239]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.32:654][239]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.37:968][781]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-01.20.37:975][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-01.20.38:011][781]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.20.38:017][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005932s)
+[2026.03.11-01.20.38:017][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.005972s)
+[2026.03.11-01.20.38:097][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.03.11-01.20.38:103][781]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.03.11-01.20.38:105][781]LogPlayLevel: PIE: World Init took: (0.001816s)
+[2026.03.11-01.20.38:105][781]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-01.20.38:105][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-01.20.38:105][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-01.20.38:105][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-01.20.38:105][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-01.20.38:105][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-01.20.38:108][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-01.20.38:132][781]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.03.11-01.20.38:132][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-01.20.38:132][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-01.20.38:132][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-01.20.38:133][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.03.11-01.20.38:133][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.03.11-01.20.38:135][781]LogInit: FAudioDevice initialized with ID 4.
+[2026.03.11-01.20.38:135][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.03.11-01.20.38:135][781]LogAudio: Display: Audio Device (ID: 4) registered with world 'LV_TreasureHuntLevel'.
+[2026.03.11-01.20.38:135][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.03.11-01.20.38:135][781]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.03.11-01.20.38:141][781]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.11-01.20.38:142][781]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.03.11-01.20.38
+[2026.03.11-01.20.38:142][781]LogWorld: Bringing up level for play took: 0.001547
+[2026.03.11-01.20.38:145][781]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.03.11-01.20.38:148][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.20.38:149][781]PIE: Server logged in
+[2026.03.11-01.20.38:151][781]PIE: Play in editor total start time 0.177 seconds.
+[2026.03.11-01.20.38:200][782]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-01.20.41:141][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.20.41:141][126]LogWorld: BeginTearingDown for /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.20.41:141][126]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-01.20.41:141][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.20.41:144][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-01.20.41:149][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.20.41:174][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.20.41:174][126]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.03.11-01.20.41:174][126]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.03.11-01.20.41:176][126]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.03.11-01.20.41:182][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.03.11-01.20.41:229][127]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.03.11-01.20.41:972][205]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.41:972][205]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.20.53:448][476]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.53:448][476]LogEditorTransaction: Undo Move Elements
+[2026.03.11-01.20.53:639][481]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.53:639][481]LogEditorTransaction: Undo Clicking Background
+[2026.03.11-01.20.53:820][484]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.53:820][484]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.53:899][484]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.54:003][486]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.54:003][486]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2026.03.11-01.20.54:084][486]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.54:216][490]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.54:216][490]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.54:296][490]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.20.54:475][503]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.54:475][503]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.20.54:988][545]Cmd: TRANSACTION UNDO
+[2026.03.11-01.20.54:988][545]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.21.01:094][212]Cmd: TRANSACTION UNDO
+[2026.03.11-01.21.01:094][212]LogEditorTransaction: Undo Move Elements
+[2026.03.11-01.21.45:056][ 35]Cmd: TRANSACTION UNDO
+[2026.03.11-01.21.45:056][ 35]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.21.45:139][ 35]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.21.46:028][ 97]Cmd: TRANSACTION UNDO
+[2026.03.11-01.21.46:029][ 97]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.21.46:111][ 97]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.21.50:112][393]Cmd: TRANSACTION UNDO
+[2026.03.11-01.21.50:112][393]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.22.18:488][434]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 723.678467
+[2026.03.11-01.22.18:709][441]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.22.18:709][441]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 723.869324, Update Interval: 316.240112
+[2026.03.11-01.22.46:744][306]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_0 in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 496f2e9d65a362b5e80319a453cf7e5d5627ca82), compiling. Is special engine material.
+[2026.03.11-01.22.46:796][306]LogStreaming: Display: FlushAsyncLoading(584): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.11-01.23.10:773][853]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.10:773][853]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.10:993][857]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.10:993][857]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.11:277][864]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.11:277][864]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.11:548][887]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.11:549][887]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.11:764][908]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.11:764][908]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.11:973][928]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.11:973][928]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.12:172][947]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.12:172][947]LogEditorTransaction: Undo Clicking on Elements
+[2026.03.11-01.23.12:406][966]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.12:406][966]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.12:660][989]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.12:660][989]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.12:896][ 11]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.12:896][ 11]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.13:153][ 36]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.13:153][ 36]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.13:465][ 68]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.13:465][ 68]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.13:713][ 91]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.13:713][ 91]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.13:957][115]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.13:957][115]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.14:210][140]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.14:210][140]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.14:440][160]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.14:440][160]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.14:694][167]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.14:694][167]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.26:077][422]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.26:077][422]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.26:256][425]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.26:256][425]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.26:402][428]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.26:402][428]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.26:585][432]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.26:585][432]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.26:715][439]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.26:715][439]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.26:872][453]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.26:872][453]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.27:063][471]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.27:063][471]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.27:227][486]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.27:227][486]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.27:408][503]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.27:408][503]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.27:590][520]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.27:590][520]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.27:674][520]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.27:779][524]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.27:779][524]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.27:863][524]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.27:978][531]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.27:978][531]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.28:062][531]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.28:146][535]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.28:146][535]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.28:232][535]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.28:337][541]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.28:337][541]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.28:429][541]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.28:534][547]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.28:534][547]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.28:620][547]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.28:741][555]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.28:741][555]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.28:827][555]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.28:946][563]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.28:946][563]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.29:160][572]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.29:160][572]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.29:246][572]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.29:367][580]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.29:367][580]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.29:455][580]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.29:574][588]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.29:574][588]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.29:662][588]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.29:787][594]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.29:789][594]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.29:875][594]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.23.30:009][597]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.30:009][597]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.23.30:228][599]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.30:228][599]LogEditorTransaction: Undo Creating New Landscape
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:282][599]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.30:430][603]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.30:430][603]LogEditorTransaction: Undo Move Elements
+[2026.03.11-01.23.30:664][625]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.30:664][625]LogEditorTransaction: Undo Move Elements
+[2026.03.11-01.23.33:176][915]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.33:176][915]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.33:483][942]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.33:483][942]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.33:727][949]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.33:727][949]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.23.34:003][954]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.34:003][954]LogEditorTransaction: Undo Creating New Landscape
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:055][954]LogActorComponent: RegisterComponentWithWorld: (/Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_1.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.03.11-01.23.34:653][ 12]Cmd: TRANSACTION UNDO
+[2026.03.11-01.23.34:653][ 12]LogEditorTransaction: Undo Move Elements
+[2026.03.11-01.24.30:336][ 83]Cmd: TRANSACTION UNDO
+[2026.03.11-01.24.30:336][ 83]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.24.30:349][ 83]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.30:350][ 83]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_103 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.30:350][ 83]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.30:350][ 83]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_83 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.30:352][ 83]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_99 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.31:041][116]Cmd: TRANSACTION UNDO
+[2026.03.11-01.24.31:041][116]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.24.31:055][116]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.31:056][116]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.24.35:838][642]Cmd: TRANSACTION UNDO
+[2026.03.11-01.24.35:838][642]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.02:588][323]Cmd: SELECT NONE
+[2026.03.11-01.25.03:032][376]Cmd: SELECT NONE
+[2026.03.11-01.25.19:234][205]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_18 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.19:235][205]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_20 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.19:236][205]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_22 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.19:238][205]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_34 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.19:240][205]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_36 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.20:647][351]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_86 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.20:649][351]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_70 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.20:650][351]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_102 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.20:651][351]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_100 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.20:662][351]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_131 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.23:186][592]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_52 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.30:077][343]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_82 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.30:079][343]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_98 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.37:380][ 99]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_142 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.37:697][133]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_140 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.38:483][219]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_136 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.39:100][289]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_134 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.39:735][361]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_99 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.40:135][405]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_83 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.40:619][459]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.40:882][487]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_84 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.40:886][487]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.41:422][548]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.41:422][548]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.41:606][552]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.41:607][552]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.41:801][556]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.41:801][556]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.41:960][559]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.41:960][559]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.42:134][572]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.42:134][572]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.42:299][586]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.42:299][586]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.42:466][599]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.42:466][599]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.42:637][612]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.42:637][612]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.42:821][627]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.42:821][627]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.25.43:010][643]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.43:010][643]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.43:030][643]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_132 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.43:215][660]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.43:215][660]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.43:396][675]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.43:396][675]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.43:614][695]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.43:614][695]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.43:821][713]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.43:822][713]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.44:038][734]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.44:038][734]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.44:242][754]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.44:242][754]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.44:465][775]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.44:465][775]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.25.44:695][798]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.44:696][798]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.44:905][819]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.44:905][819]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.45:097][836]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.45:097][836]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.45:289][841]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.45:289][841]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.45:533][847]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.45:533][847]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.45:733][862]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.45:734][862]LogEditorTransaction: Undo Select None
+[2026.03.11-01.25.45:949][879]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.45:949][879]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.46:171][899]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.46:171][899]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.46:384][920]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.46:384][920]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.46:614][943]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.46:614][943]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.46:836][965]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.46:836][965]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.25.47:072][989]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.47:072][989]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.47:085][989]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:085][989]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_99 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:086][989]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_83 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:305][ 10]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.47:305][ 10]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.47:318][ 10]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:318][ 10]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_99 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:320][ 10]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_83 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:575][ 37]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.47:575][ 37]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.47:588][ 37]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:588][ 37]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_99 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:589][ 37]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:589][ 37]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_83 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:831][ 62]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.47:831][ 62]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.47:844][ 62]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_103 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:844][ 62]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:845][ 62]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_87 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.47:845][ 62]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:069][ 85]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.48:069][ 85]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.48:082][ 85]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_103 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:082][ 85]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:083][ 85]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_87 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:083][ 85]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:282][105]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.48:282][105]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.48:310][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_103 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:311][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:312][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_87 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:312][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:313][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_71 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:313][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_69 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:314][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_55 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:314][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_53 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:315][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_39 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:316][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_23 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:316][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_37 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:316][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_35 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:316][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_21 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:318][105]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_19 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:505][123]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.48:505][123]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.48:518][123]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_55 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:519][123]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_71 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:519][123]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_69 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:778][148]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.48:778][148]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.48:796][148]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_71 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:797][148]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_69 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.48:798][148]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_87 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:043][155]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.49:043][155]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.49:057][155]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_85 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:058][155]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_101 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:058][155]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_87 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:058][155]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_103 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:285][161]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.49:285][161]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.49:303][161]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_71 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:629][192]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.49:630][192]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.49:647][192]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_53 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:647][192]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_37 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:648][192]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_55 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:649][192]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_39 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:874][213]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.49:875][213]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.49:895][213]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_37 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:895][213]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_35 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:896][213]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_23 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:896][213]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_21 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.49:896][213]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_19 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.50:135][238]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.50:136][238]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.50:147][238]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_35 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.50:147][238]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_19 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.03.11-01.25.50:399][265]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.50:399][265]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.25.54:193][702]Cmd: TRANSACTION UNDO
+[2026.03.11-01.25.54:193][702]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.26.30:586][605]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.30:586][605]LogEditorTransaction: Undo Landscape Editing: Move to Streaming Level
+[2026.03.11-01.26.31:045][616]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.31:045][616]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.31:226][628]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.31:226][628]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.31:408][644]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.31:408][644]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.31:596][661]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.31:596][661]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.31:786][678]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.31:786][678]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.31:984][696]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.31:984][696]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.32:175][713]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.32:176][713]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.32:347][726]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.32:347][726]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.32:533][740]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.32:533][740]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.32:763][760]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.32:763][760]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.32:975][777]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.32:975][777]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.33:258][802]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.33:258][802]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2026.03.11-01.26.33:506][824]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.33:506][824]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.26.34:057][877]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.34:057][877]LogEditorTransaction: Undo Landscape Editing: Add New Landscape Component
+[2026.03.11-01.26.34:283][894]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.34:283][894]LogEditorTransaction: Undo Landscape Editing: Delete Landscape Components
+[2026.03.11-01.26.36:329][ 43]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.36:329][ 43]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.26.37:850][164]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.37:850][164]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.26.41:036][364]Cmd: TRANSACTION UNDO
+[2026.03.11-01.26.41:037][364]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.14:094][843]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.14:094][843]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.14:187][843]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.27.15:773][958]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.15:773][958]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.15:965][961]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.15:965][961]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.16:059][961]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.27.16:201][968]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.16:201][968]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.16:295][968]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.27.17:865][131]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.17:865][131]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.17:959][131]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.27.18:652][172]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.18:652][172]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.22:054][491]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.22:054][491]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.33:255][471]Cmd: TRANSACTION UNDO
+[2026.03.11-01.27.33:255][471]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2026.03.11-01.27.33:351][471]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.27.42:238][ 25]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1047.424805
+[2026.03.11-01.27.42:416][ 35]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-01.27.42:416][ 35]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1047.583740, Update Interval: 349.672546
+[2026.03.11-01.27.52:355][855]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-01.27.52:361][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-01.27.52:401][855]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.27.52:413][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011871s)
+[2026.03.11-01.27.52:413][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.011912s)
+[2026.03.11-01.27.52:452][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.03.11-01.27.52:461][855]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.03.11-01.27.52:463][855]LogPlayLevel: PIE: World Init took: (0.001656s)
+[2026.03.11-01.27.52:464][855]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-01.27.52:464][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-01.27.52:464][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-01.27.52:464][855]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-01.27.52:464][855]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-01.27.52:464][855]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-01.27.52:466][855]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-01.27.52:489][855]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.03.11-01.27.52:489][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-01.27.52:489][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-01.27.52:489][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-01.27.52:490][855]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.03.11-01.27.52:490][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.03.11-01.27.52:492][855]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.03.11-01.27.52:492][855]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.03.11-01.27.52:492][855]LogInit: FAudioDevice initialized with ID 5.
+[2026.03.11-01.27.52:492][855]LogAudio: Display: Audio Device (ID: 5) registered with world 'LV_TreasureHuntLevel'.
+[2026.03.11-01.27.52:492][855]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.03.11-01.27.52:498][855]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.11-01.27.52:501][855]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.03.11-01.27.52
+[2026.03.11-01.27.52:501][855]LogWorld: Bringing up level for play took: 0.002699
+[2026.03.11-01.27.52:504][855]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2026.03.11-01.27.52:507][855]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.27.52:508][855]PIE: Server logged in
+[2026.03.11-01.27.52:510][855]PIE: Play in editor total start time 0.149 seconds.
+[2026.03.11-01.27.52:560][856]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-01.27.59:411][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.27.59:412][663]LogWorld: BeginTearingDown for /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.27.59:412][663]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-01.27.59:412][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.27.59:414][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-01.27.59:419][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.27.59:443][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.11-01.27.59:443][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.03.11-01.27.59:444][663]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.03.11-01.27.59:445][663]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.03.11-01.27.59:451][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.27.59:455][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.03.11-01.27.59:506][664]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2026.03.11-01.28.11:904][897]Cmd: TRANSACTION UNDO
+[2026.03.11-01.28.11:904][897]LogEditorTransaction: Undo Landscape Editing: Erase
+[2026.03.11-01.28.11:983][897]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.28.17:312][349]Cmd: TRANSACTION UNDO
+[2026.03.11-01.28.17:312][349]LogEditorTransaction: Undo Landscape Editing: Erase
+[2026.03.11-01.28.17:390][349]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.28.20:921][617]Cmd: TRANSACTION UNDO
+[2026.03.11-01.28.20:922][617]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2026.03.11-01.28.21:000][617]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2026.03.11-01.29.06:077][102]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-01.29.06:158][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.03.11-01.29.06:184][102]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2026.03.11-01.29.06:187][102]LogTexture: Display: Building textures: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel:PersistentLevel.Landscape_3.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2026.03.11-01.29.06:256][102]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel
+[2026.03.11-01.29.06:257][102]LogSavePackage: Moving '../../../../../../Users/stewv/OneDrive/Desktop/Projects/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/LV_TreasureHuntLevel900A42B54F3E41575492DE9920B2C249.tmp' to '../../../../../../Users/stewv/OneDrive/Desktop/Projects/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.umap'
+[2026.03.11-01.29.06:267][102]LogFileHelpers: Saving map 'LV_TreasureHuntLevel' took 0.153
+[2026.03.11-01.29.06:279][102]LogFileHelpers: InternalPromptForCheckoutAndSave took 202.186 ms (total: 334.241 ms)
+[2026.03.11-01.29.06:314][102]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-01.29.06:314][102]LogContentValidation: Enabled validators:
+[2026.03.11-01.29.06:314][102]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-01.29.06:314][102]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-01.29.06:314][102]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-01.29.06:314][102]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-01.29.06:314][102]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-01.29.06:314][102]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-01.29.06:314][102]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
+[2026.03.11-01.29.30:311][707]LogStreaming: Display: FlushAsyncLoading(586): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.11-01.29.43:106][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-01.29.43:141][975]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.29.43:153][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012012s)
+[2026.03.11-01.29.43:153][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.012055s)
+[2026.03.11-01.29.43:177][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.03.11-01.29.43:183][975]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.03.11-01.29.43:184][975]LogPlayLevel: PIE: World Init took: (0.001529s)
+[2026.03.11-01.29.43:185][975]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-01.29.43:185][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-01.29.43:185][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-01.29.43:185][975]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-01.29.43:185][975]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-01.29.43:185][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-01.29.43:187][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-01.29.43:209][975]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.03.11-01.29.43:209][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-01.29.43:209][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-01.29.43:209][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-01.29.43:209][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.03.11-01.29.43:209][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.03.11-01.29.43:212][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.03.11-01.29.43:212][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.03.11-01.29.43:212][975]LogInit: FAudioDevice initialized with ID 6.
+[2026.03.11-01.29.43:212][975]LogAudio: Display: Audio Device (ID: 6) registered with world 'LV_TreasureHuntLevel'.
+[2026.03.11-01.29.43:212][975]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.03.11-01.29.43:215][975]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.11-01.29.43:218][975]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.03.11-01.29.43
+[2026.03.11-01.29.43:218][975]LogWorld: Bringing up level for play took: 0.002897
+[2026.03.11-01.29.43:220][975]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2026.03.11-01.29.43:221][975]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.29.43:222][975]PIE: Server logged in
+[2026.03.11-01.29.43:224][975]PIE: Play in editor total start time 0.119 seconds.
+[2026.03.11-01.29.43:347][975]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-01.30.08:103][870]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] false
+[2026.03.11-01.30.28:115][223]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.30.28:115][223]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.30.39:832][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.30.39:832][398]LogWorld: BeginTearingDown for /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.30.39:832][398]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-01.30.39:833][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.30.39:834][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-01.30.39:840][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.30.39:864][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.30.39:866][398]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.03.11-01.30.39:866][398]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.03.11-01.30.39:868][398]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.03.11-01.30.39:875][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.03.11-01.30.39:948][399]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.03.11-01.30.53:071][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-01.30.53:071][851]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.30.53:084][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012161s)
+[2026.03.11-01.30.53:084][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.012197s)
+[2026.03.11-01.30.53:108][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.03.11-01.30.53:112][851]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.03.11-01.30.53:113][851]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2026.03.11-01.30.53:114][851]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-01.30.53:114][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-01.30.53:114][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-01.30.53:114][851]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-01.30.53:114][851]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-01.30.53:114][851]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-01.30.53:116][851]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-01.30.53:139][851]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.03.11-01.30.53:139][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-01.30.53:139][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-01.30.53:139][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-01.30.53:139][851]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.03.11-01.30.53:139][851]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.03.11-01.30.53:141][851]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.03.11-01.30.53:141][851]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.03.11-01.30.53:141][851]LogInit: FAudioDevice initialized with ID 7.
+[2026.03.11-01.30.53:141][851]LogAudio: Display: Audio Device (ID: 7) registered with world 'LV_TreasureHuntLevel'.
+[2026.03.11-01.30.53:141][851]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.03.11-01.30.53:145][851]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.11-01.30.53:149][851]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.03.11-01.30.53
+[2026.03.11-01.30.53:149][851]LogWorld: Bringing up level for play took: 0.002787
+[2026.03.11-01.30.53:150][851]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.03.11-01.30.53:151][851]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.30.53:152][851]PIE: Server logged in
+[2026.03.11-01.30.53:154][851]PIE: Play in editor total start time 0.083 seconds.
+[2026.03.11-01.30.53:216][852]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-01.31.11:532][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.31.11:532][920]LogWorld: BeginTearingDown for /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.31.11:532][920]LogWorld: UWorld::CleanupWorld for LV_TreasureHuntLevel, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-01.31.11:533][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.31.11:534][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-01.31.11:538][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-01.31.11:563][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-01.31.11:563][920]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.03.11-01.31.11:563][920]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.03.11-01.31.11:565][920]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.03.11-01.31.11:573][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.03.11-01.31.11:640][921]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.03.11-01.31.29:952][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-01.31.29:952][935]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel
+[2026.03.11-01.31.29:964][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012330s)
+[2026.03.11-01.31.29:964][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.LV_TreasureHuntLevel to /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel (0.012366s)
+[2026.03.11-01.31.29:986][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.03.11-01.31.29:990][935]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_TreasureHuntLevel
+[2026.03.11-01.31.29:992][935]LogPlayLevel: PIE: World Init took: (0.001575s)
+[2026.03.11-01.31.29:992][935]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-01.31.29:992][935]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-01.31.29:992][935]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-01.31.29:992][935]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-01.31.29:992][935]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-01.31.29:992][935]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-01.31.29:995][935]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-01.31.30:016][935]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.03.11-01.31.30:016][935]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-01.31.30:016][935]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-01.31.30:016][935]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-01.31.30:017][935]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.03.11-01.31.30:017][935]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.03.11-01.31.30:020][935]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.03.11-01.31.30:020][935]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.03.11-01.31.30:020][935]LogInit: FAudioDevice initialized with ID 8.
+[2026.03.11-01.31.30:020][935]LogAudio: Display: Audio Device (ID: 8) registered with world 'LV_TreasureHuntLevel'.
+[2026.03.11-01.31.30:020][935]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.03.11-01.31.30:023][935]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.11-01.31.30:026][935]LogWorld: Bringing World /Game/LevelPrototyping/TreasureHuntLevel/UEDPIE_0_LV_TreasureHuntLevel.LV_TreasureHuntLevel up for play (max tick rate 0) at 2026.03.11-01.31.30
+[2026.03.11-01.31.30:026][935]LogWorld: Bringing up level for play took: 0.002799
+[2026.03.11-01.31.30:028][935]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2026.03.11-01.31.30:028][935]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.31.30:030][935]PIE: Server logged in
+[2026.03.11-01.31.30:032][935]PIE: Play in editor total start time 0.08 seconds.
+[2026.03.11-01.31.30:153][935]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-01.31.54:940][815]LogBlueprintUserMessages: [LV_TreasureHuntLevel_C_1] false
+[2026.03.11-01.32.07:334][213]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-01.32.07:378][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.03.11-01.32.07:485][213]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel
+[2026.03.11-01.32.07:486][213]LogSavePackage: Moving '../../../../../../Users/stewv/OneDrive/Desktop/Projects/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Saved/LV_TreasureHuntLevel72A296B049A3E870F0C6CB9735807553.tmp' to '../../../../../../Users/stewv/OneDrive/Desktop/Projects/Team_4_Plunder_Party/Plunder_Party 5.6 - 2/Content/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel.umap'
+[2026.03.11-01.32.07:496][213]LogFileHelpers: Saving map 'LV_TreasureHuntLevel' took 0.162
+[2026.03.11-01.32.07:497][213]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.672 ms (total: 496.913 ms)
+[2026.03.11-01.32.07:499][213]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-01.32.07:499][213]LogContentValidation: Enabled validators:
+[2026.03.11-01.32.07:499][213]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-01.32.07:499][213]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-01.32.07:499][213]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-01.32.07:499][213]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-01.32.07:499][213]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-01.32.07:499][213]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-01.32.07:499][213]AssetCheck: /Game/LevelPrototyping/TreasureHuntLevel/LV_TreasureHuntLevel Validating asset
+[2026.03.11-01.32.15:135][329]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
+[2026.03.11-01.32.15:135][329]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (LV_TreasureHuntLevel_C_1)
