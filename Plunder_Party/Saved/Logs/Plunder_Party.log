@@ -11427,6 +11427,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.23-15.47.59:399][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2026.03.23-15.47.59:468][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [2026.03.23-15.49.37:839][838]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
 [2026.03.23-15.49.37:879][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
 [2026.03.23-15.49.37:943][838]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/Widgets/mini1_winner] ([2] browsable assets)...
@@ -11745,5 +11746,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.23-15.50.56:173][176]LogBlueprintUserMessages: [WB_Player_Bars_new2_C_0] gross
 [2026.03.23-15.50.57:213][181]LogBlueprintUserMessages: [WB_Player_Bars_new2_C_0] gross
 [2026.03.23-15.50.57:213][181]LogBlueprintUserMessages: [BP_ThirdPerson_C_2] 1
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
