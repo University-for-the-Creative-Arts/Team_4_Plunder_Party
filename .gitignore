@@ -77,3 +77,5 @@ DerivedDataCache/*
 /Intermediate/
 /DerivedDataCache/
 *.log
+Plunder_Party/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+Plunder_Party/Saved/SourceControl/UncontrolledChangelists.json
