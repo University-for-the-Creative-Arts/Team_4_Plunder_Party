@@ -1361,3 +1361,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.16-14.42.38:067][174]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 68405.34 ms.
 [2026.04.16-14.42.39:511][178]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 69848.41 ms.
 [2026.04.16-14.43.23:744][311]LogDerivedDataCache: C:/Users/2406616/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.16-14.46.56:033][410]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 327.612671
+[2026.04.16-14.46.57:032][413]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.16-14.46.57:032][413]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 328.281708, Update Interval: 322.546478
