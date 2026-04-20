@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\2406616\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_Party.Build.cs",
-		"C:\\Users\\2406616\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_Party.Target.cs",
-		"C:\\Users\\2406616\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_PartyClient.Target.cs",
-		"C:\\Users\\2406616\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_PartyEditor.Target.cs",
-		"C:\\Users\\2406616\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_PartyServer.Target.cs"
+		"C:\\Users\\2507279\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_Party.Build.cs",
+		"C:\\Users\\2507279\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_Party.Target.cs",
+		"C:\\Users\\2507279\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_PartyClient.Target.cs",
+		"C:\\Users\\2507279\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_PartyEditor.Target.cs",
+		"C:\\Users\\2507279\\Documents\\GitHub\\Team_4_Plunder_Party\\Plunder_Party\\Intermediate\\Source\\Plunder_PartyServer.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }

@@ -159,6 +159,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0C0F9E3CC83A28D2ECC8089886D7337DB87F4063",
+			"Assets": [
+				"/Game/Medieval_Tavern/Materials/M_Props"
+			]
+		},
+		{
 			"ShaderMapHash": "C401E13CB06B420E8CDA67FAB20C768C19D8FB3B",
 			"Assets": [
 				"/Game/LevelPrototyping/Materials/M_FlatCol"
@@ -378,7 +384,9 @@
 		{
 			"ShaderMapHash": "C2BB0387A3F13B2073CCE94AEC334B44BB983DEF",
 			"Assets": [
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001"
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Metal_001_Stairs_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Bar_002",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_003_Bar_002"
 			]
 		},
 		{
@@ -475,7 +483,6 @@
 		{
 			"ShaderMapHash": "882993A9B17F05FC3E1A81E87ECABF5031971C32",
 			"Assets": [
-				"/Game/Fab/Skull_Pirate_Bracers/skull_pirate_bracers/Materials/lambert2",
 				"/Game/Fab/Tricorn_hat_lowpoly/tricorn_hat_lowpoly/Materials/TricornhatMat"
 			]
 		},
@@ -486,9 +493,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "CFCBBBAD489D3D4EF98F357A5F4731E7495FA222",
+			"ShaderMapHash": "31DE64AB0B6D35DEB0E2B5ED85DF6FD1F8482B6B",
 			"Assets": [
-				"/Game/Smugglers_cove/materials/terrain/terrain_materials_tileable/M_Stone_Floor_01_tile"
+				"/NiagaraFluids/Materials/Grid2D/M_2D_GasBase"
 			]
 		},
 		{
@@ -501,6 +508,12 @@
 			"ShaderMapHash": "32D029B0F07F75084F14A5973D40B8EBAB28C2BC",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "850E70B0C1E287AB1DB20E818ED9893801A9FDF2",
+			"Assets": [
+				"/Game/Medieval_Tavern/Meshes/Props/NS_Fire_Pitt_Flame"
 			]
 		},
 		{
@@ -531,6 +544,12 @@
 			"ShaderMapHash": "AE234BBB5CC9B46BEDECA6C854177C318BBFDCA0",
 			"Assets": [
 				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "E523DFBD718357B27DC1AED501B1F1715DE6AA44",
+			"Assets": [
+				"/NiagaraFluids/Materials/Utility/DebugDisplayGrid2DGizmo"
 			]
 		},
 		{
@@ -588,6 +607,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "033E82C79B7B8078C21494AFF42B638433C51525",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
+			]
+		},
+		{
 			"ShaderMapHash": "1E8AB6C813994159FECE66A520C41B1F5C555225",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS"
@@ -604,6 +629,12 @@
 			"ShaderMapHash": "21B87DCA8CF7639C8F756B27A83D55DA8685DA7E",
 			"Assets": [
 				"/Game/Characters/Mannequins/Materials/M_Mannequin"
+			]
+		},
+		{
+			"ShaderMapHash": "67173DCFD1E477FB6C17E57675CC5D6A16F078E0",
+			"Assets": [
+				"/Game/Medieval_Tavern/Meshes/Props/NS_Fire_Pitt_Flame"
 			]
 		},
 		{
