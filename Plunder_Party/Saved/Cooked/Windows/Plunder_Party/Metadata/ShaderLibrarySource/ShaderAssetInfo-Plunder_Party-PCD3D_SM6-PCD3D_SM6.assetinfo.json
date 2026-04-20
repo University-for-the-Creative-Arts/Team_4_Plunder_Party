@@ -80,6 +80,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "29E74715BAA7A2A4F6FA3C7E171FB8CEF8546783",
+			"Assets": [
+				"/Game/Smugglers_cove/materials/terrain/terrain_materials_tileable/M_Stone_Floor_01_tile"
+			]
+		},
+		{
 			"ShaderMapHash": "6521E7180894F5C0776F8B11FFB2AC5D90587F09",
 			"Assets": [
 				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
@@ -131,12 +137,6 @@
 			"ShaderMapHash": "FC277029DD4E424486658E8C1633D37059BA5C9D",
 			"Assets": [
 				"/Engine/EditorLandscapeResources/SelectBrushMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "3C1E692BB5EE7227A581311216A54EABCF8C9814",
-			"Assets": [
-				"/Game/Medieval_Tavern/Meshes/Props/NS_Fire_Pitt_Flame"
 			]
 		},
 		{
@@ -254,18 +254,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "2E32E25409156EEEC601564BC13E45D5D7EFEBF2",
-			"Assets": [
-				"/NiagaraFluids/Materials/Grid2D/M_2D_GasBase"
-			]
-		},
-		{
-			"ShaderMapHash": "DA8AA75828CD9CF9BC2BC031E4AFD0F8240CDBAE",
-			"Assets": [
-				"/NiagaraFluids/Materials/Utility/DebugDisplayGrid2DGizmo"
-			]
-		},
-		{
 			"ShaderMapHash": "9DADE258E7CD08597074CF7CA24842F4DADE8C95",
 			"Assets": [
 				"/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals"
@@ -287,12 +275,6 @@
 			"ShaderMapHash": "B99E6C5E0030E0F1E9F89D45ABFFC314DE8A828F",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Opaque_DS"
-			]
-		},
-		{
-			"ShaderMapHash": "37A9C75F0E4486687B770849BBD2AA91D0B0C49F",
-			"Assets": [
-				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
 			]
 		},
 		{
@@ -318,12 +300,6 @@
 			"ShaderMapHash": "21CC206B8AF702D8C4B6612F1EF5626562C403BC",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
-			]
-		},
-		{
-			"ShaderMapHash": "1FD5A56BA79198033061CDB705E3A14FBC1B02B5",
-			"Assets": [
-				"/Game/Medieval_Tavern/Materials/M_Props"
 			]
 		},
 		{
@@ -377,10 +353,7 @@
 		{
 			"ShaderMapHash": "84A79C7E84E8594AD3C32DCDA4042530883BFB3B",
 			"Assets": [
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Metal_001_Stairs_001",
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001",
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Bar_002",
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_003_Bar_002"
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001"
 			]
 		},
 		{
@@ -600,12 +573,6 @@
 			"ShaderMapHash": "C55271D15BBBFB227D46116B4F7D629603701B7F",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend"
-			]
-		},
-		{
-			"ShaderMapHash": "13499ED3327009B5E9E21F6F73B88ABDC7C4E526",
-			"Assets": [
-				"/Game/Medieval_Tavern/Meshes/Props/NS_Fire_Pitt_Flame"
 			]
 		},
 		{
