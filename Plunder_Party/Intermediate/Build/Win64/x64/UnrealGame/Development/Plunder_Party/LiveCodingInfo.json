@@ -1,5 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.Plunder_Party.cpp.obj": [
+			"Plunder_Party.cpp.obj"
+		]
 	}
 }
