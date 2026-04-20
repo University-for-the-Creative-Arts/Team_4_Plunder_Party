@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/TreasureHuntLevel/BP_treasureSpot.uasset",
+				"C:/Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/TreasureHuntLevel/LV_TreasureHuntLevel.umap",
+				"C:/Users/2505924/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/TreasureHuntLevel/bp_Chest.uasset",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/Widgets/WB_ScreenButtons.uasset",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_GmDrunkenPirate.uasset",
 				"C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Content/ThirdPerson/Blueprints/BP_ThirdPerson.uasset",
