@@ -4,7 +4,7 @@
 /I "Runtime/AutoRTFM/Public"
 /I "../Intermediate/Build/Win64/UnrealGame/Inc/ImageCore/UHT"
 /I "Runtime/ImageCore/Public"
-/I "C:/Users/2507279/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Intermediate/Build/Win64/x64/Plunder_Party/Development/Core"
+/I "C:/Users/2406616/Documents/GitHub/Team_4_Plunder_Party/Plunder_Party/Intermediate/Build/Win64/x64/Plunder_Party/Development/Core"
 /external:W0
 /external:I "ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 /external:I "ThirdParty/AtomicQueue"
