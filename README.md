@@ -19,6 +19,9 @@
 
 Summarise your task, goals, approach, and final outcome. What was the intent of your work? What is the most important thing to know before reading on?
 
+ In this Project I was tasked in a group of games designer students to create three party minigames for a game called "Plunder Party"
+ 
+
 ---
 
 ## Research *(Approx. 20-30% of word count)*
