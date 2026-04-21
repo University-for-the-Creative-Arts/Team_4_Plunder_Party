@@ -28,7 +28,9 @@
 
 ### What sources or references have you identified as relevant to this task?
 
-interne
+ 1. internet research from wikihow-it being secondly reserach- it giveing me an ooderstanding of what part to add to the game
+ 2. 
+ 
 
 Reflect on the **type** and **relevance** of sources explored. Justify your research direction in relation to the task brief and target outcomes.
 
