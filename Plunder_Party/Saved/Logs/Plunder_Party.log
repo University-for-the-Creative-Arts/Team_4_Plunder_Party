@@ -3545,3 +3545,285 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.22-12.23.37:320][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.04.22-12.23.37:325][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
 [2026.04.22-12.23.37:386][594]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: ================================================
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Total job queries 18,944, among them cache hits 4,205 (22.20%), DDC hits 12,350 (65.19%), Duplicates 1,386 (7.32%)
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Tracking 13,353 distinct input hashes that result in 12,171 distinct outputs (91.15%)
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: RAM used: 161.79 MiB of 1.60 GiB budget. Usage: 9.88%
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Shaders Compiled: 1,003
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Jobs assigned 1,003, completed 1,003 (100%)
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Average time worker was idle: 30.98 s
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Time job spent in pending queue: average 4.73 s, longest 42.22 s
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Job execution time: average 6.95 s, max 34.07 s
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Job life time (pending + execution): average 11.68 s, max 48.00
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Shader code size: total 14.162 MiB, numShaders 1,038, average 13.971 KiB, min 1.234 KiB, max 60.949 KiB
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 146.72 s
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.21%
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Jobs were issued in 356 batches (only local compilation was used), average 2.82 jobs/batch
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Average processing rate: 6.84 jobs/sec
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Total thread time: 1,387.037 s
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Total thread preprocess time: 205.303 s
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Percentage time preprocessing: 14.80%
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Effective parallelization: 9.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.787820
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display:            TBasePassPSFNoLightMapPolicySkylightForceVelocity (compiled    1 times, average 27.62 sec, max 27.62 sec, min 27.62 sec)
+[2026.04.22-12.25.47:561][350]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    3 times, average 8.96 sec, max 22.26 sec, min 1.92 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    2 times, average 7.15 sec, max 7.92 sec, min 6.37 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS (compiled    1 times, average 6.99 sec, max 6.99 sec, min 6.99 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 6.62 sec, max 8.25 sec, min 4.14 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 15.14% of total time (compiled   80 times, average 2.62 sec, max 3.03 sec, min 1.95 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.02% of total time (compiled   66 times, average 1.47 sec, max 10.97 sec, min 0.27 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.20% of total time (compiled   44 times, average 1.96 sec, max 11.29 sec, min 0.48 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 5.50% of total time (compiled   27 times, average 2.83 sec, max 17.96 sec, min 0.38 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 4.77% of total time (compiled   10 times, average 6.62 sec, max 8.25 sec, min 4.14 sec)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: === Material stats ===
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Materials Translated:    176
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Material Translation Only: 0.06 s (40%)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.22-12.25.47:562][350]LogShaderCompilers: Display: ================================================
+[2026.04.22-12.27.03:926][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1704.916626
+[2026.04.22-12.27.04:067][222]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.22-12.27.04:067][222]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1705.041992, Update Interval: 337.296051
+[2026.04.22-12.31.51:965][566]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.22-12.31.51:969][566]LogContentBundle: [Lvl_Drunken_Pirates(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.22-12.31.51:969][566]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Drunken_Pirates' started...
+[2026.04.22-12.31.51:971][566]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Drunken_Pirates' took 1.551 ms (total: 9.819 ms)
+[2026.04.22-12.31.51:971][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.22-12.31.51:971][566]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates
+[2026.04.22-12.31.51:984][566]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.22-12.31.51:986][566]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.250 ms (total: 12.297 ms)
+[2026.04.22-12.31.51:986][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014734s)
+[2026.04.22-12.31.51:986][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_Drunken_Pirates.Lvl_Drunken_Pirates to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates (0.014778s)
+[2026.04.22-12.31.52:013][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.04.22-12.31.52:014][566]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Drunken_Pirates
+[2026.04.22-12.31.52:016][566]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Drunken_Pirates)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.22-12.31.52:017][566]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.22-12.31.52:017][566]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.22-12.31.52:017][566]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.22-12.31.52:020][566]LogWorldPartition: Display: WorldPartition initialize took 2.783 ms (total: 7.25 sec)
+[2026.04.22-12.31.52:020][566]LogPlayLevel: PIE: World Init took: (0.005158s)
+[2026.04.22-12.31.52:021][566]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.22-12.31.52:021][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.22-12.31.52:021][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.22-12.31.52:021][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.22-12.31.52:021][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.22-12.31.52:021][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.22-12.31.52:024][566]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.22-12.31.52:083][566]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.04.22-12.31.52:083][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.22-12.31.52:083][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.22-12.31.52:083][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.22-12.31.52:084][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.04.22-12.31.52:084][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.04.22-12.31.52:086][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.04.22-12.31.52:086][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.04.22-12.31.52:086][566]LogInit: FAudioDevice initialized with ID 7.
+[2026.04.22-12.31.52:086][566]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lvl_Drunken_Pirates'.
+[2026.04.22-12.31.52:086][566]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.04.22-12.31.52:089][566]LogLoad: Game class is 'BP_GmDrunkenPirate_C'
+[2026.04.22-12.31.52:094][566]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates up for play (max tick rate 0) at 2026.04.22-13.31.52
+[2026.04.22-12.31.52:095][566]LogWorld: Bringing up level for play took: 0.004991
+[2026.04.22-12.31.52:098][566]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.04.22-12.31.52:113][566]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2026.04.22-12.31.52:113][566]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.04.22-12.31.52:114][566]PIE: Server logged in
+[2026.04.22-12.31.52:116][566]PIE: Play in editor total start time 0.147 seconds.
+[2026.04.22-12.31.52:166][567]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.22-12.31.52:255][567]LogPSOHitching: Encountered 750 PSO creation hitches so far (328 graphics, 422 compute). 0 of them were precached.
+[2026.04.22-12.32.28:966][189]LogBlueprintUserMessages: [BP_Bottle_C_UAID_60FF9EBA567A04C402_1177117175] Bottle Drop
+[2026.04.22-12.32.38:534][874]LogBlueprintUserMessages: [BP_Bottle_C_0] Bottle Drop
+[2026.04.22-12.33.25:117][228]LogStreaming: Display: FlushAsyncLoading(663): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.22-12.33.25:276][230]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.04.22-12.33.25:370][230]LogPSOHitching: Encountered 800 PSO creation hitches so far (351 graphics, 449 compute). 0 of them were precached.
+[2026.04.22-12.33.29:902][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.22-12.33.29:902][528]LogWorld: BeginTearingDown for /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates
+[2026.04.22-12.33.29:902][528]LogWorld: UWorld::CleanupWorld for Lvl_Drunken_Pirates, bSessionEnded=true, bCleanupResources=true
+[2026.04.22-12.33.29:904][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.22-12.33.29:904][528]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates
+[2026.04.22-12.33.29:906][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.22-12.33.29:911][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.22-12.33.29:933][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.22-12.33.29:934][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.04.22-12.33.29:934][528]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.04.22-12.33.29:936][528]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.04.22-12.33.29:945][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.04.22-12.33.30:030][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.22-12.33.30:035][529]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.04.22-12.33.30:037][529]LogSlate: Took 0.000710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.04.22-12.33.30:078][529]LogSlate: Took 0.001589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.04.22-12.33.30:080][529]LogSlate: Took 0.000582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.04.22-12.33.30:082][529]LogSlate: Took 0.000600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.04.22-12.33.38:506][ 84]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2099.499756
+[2026.04.22-12.33.38:645][ 93]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.22-12.33.38:645][ 93]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2099.624023, Update Interval: 346.803192
+[2026.04.22-12.33.39:162][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.22-12.33.39:167][128]LogContentBundle: [Lvl_Drunken_Pirates(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.22-12.33.39:167][128]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Drunken_Pirates' started...
+[2026.04.22-12.33.39:168][128]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Drunken_Pirates' took 1.331 ms (total: 11.150 ms)
+[2026.04.22-12.33.39:168][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.22-12.33.39:168][128]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates
+[2026.04.22-12.33.39:181][128]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.22-12.33.39:183][128]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.364 ms (total: 14.662 ms)
+[2026.04.22-12.33.39:183][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014407s)
+[2026.04.22-12.33.39:183][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_Drunken_Pirates.Lvl_Drunken_Pirates to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates (0.014438s)
+[2026.04.22-12.33.39:207][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.04.22-12.33.39:209][128]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Drunken_Pirates
+[2026.04.22-12.33.39:211][128]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Drunken_Pirates)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.22-12.33.39:211][128]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.22-12.33.39:211][128]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.22-12.33.39:211][128]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.22-12.33.39:214][128]LogWorldPartition: Display: WorldPartition initialize took 2.740 ms (total: 7.25 sec)
+[2026.04.22-12.33.39:214][128]LogPlayLevel: PIE: World Init took: (0.004915s)
+[2026.04.22-12.33.39:215][128]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.22-12.33.39:215][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.22-12.33.39:215][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.22-12.33.39:215][128]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.22-12.33.39:215][128]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.22-12.33.39:215][128]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.22-12.33.39:217][128]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.22-12.33.39:277][128]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.04.22-12.33.39:277][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.22-12.33.39:277][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.22-12.33.39:277][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.22-12.33.39:277][128]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.04.22-12.33.39:277][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.04.22-12.33.39:280][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.04.22-12.33.39:280][128]LogInit: FAudioDevice initialized with ID 8.
+[2026.04.22-12.33.39:280][128]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.04.22-12.33.39:280][128]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lvl_Drunken_Pirates'.
+[2026.04.22-12.33.39:280][128]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.04.22-12.33.39:283][128]LogLoad: Game class is 'BP_GmDrunkenPirate_C'
+[2026.04.22-12.33.39:287][128]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates up for play (max tick rate 0) at 2026.04.22-13.33.39
+[2026.04.22-12.33.39:289][128]LogWorld: Bringing up level for play took: 0.004708
+[2026.04.22-12.33.39:291][128]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2026.04.22-12.33.39:306][128]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2026.04.22-12.33.39:306][128]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.04.22-12.33.39:307][128]PIE: Server logged in
+[2026.04.22-12.33.39:309][128]PIE: Play in editor total start time 0.142 seconds.
+[2026.04.22-12.33.39:373][129]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.22-12.33.42:360][337]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.04.22-12.33.42:360][337]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.22-12.33.42:360][337]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.22-12.33.42:360][337]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.04.22-12.33.42:360][337]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.04.22-12.33.42:360][337]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.04.22-12.33.44:150][550]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.22-12.33.44:150][550]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.22-12.33.45:814][671]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.47:840][817]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.48:356][854]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.48:836][888]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.49:299][921]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.49:925][965]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.50:420][  1]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.50:972][ 40]Cmd: ToggleDebugCamera
+[2026.04.22-12.33.52:751][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.22-12.33.52:751][164]LogWorld: BeginTearingDown for /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates
+[2026.04.22-12.33.52:751][164]LogWorld: UWorld::CleanupWorld for Lvl_Drunken_Pirates, bSessionEnded=true, bCleanupResources=true
+[2026.04.22-12.33.52:753][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.22-12.33.52:753][164]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates
+[2026.04.22-12.33.52:755][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.22-12.33.52:760][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.22-12.33.52:775][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.22-12.33.52:776][164]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.04.22-12.33.52:776][164]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.04.22-12.33.52:777][164]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.04.22-12.33.52:787][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.04.22-12.33.52:829][165]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2026.04.22-12.33.57:697][484]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.22-12.33.57:702][484]LogContentBundle: [Lvl_Drunken_Pirates(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.22-12.33.57:702][484]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Drunken_Pirates' started...
+[2026.04.22-12.33.57:704][484]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Drunken_Pirates' took 1.985 ms (total: 13.136 ms)
+[2026.04.22-12.33.57:704][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.22-12.33.57:704][484]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates
+[2026.04.22-12.33.57:719][484]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.22-12.33.57:721][484]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.213 ms (total: 16.875 ms)
+[2026.04.22-12.33.57:721][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017234s)
+[2026.04.22-12.33.57:721][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Levels/Lvl_Drunken_Pirates.Lvl_Drunken_Pirates to /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates (0.017264s)
+[2026.04.22-12.33.57:743][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.04.22-12.33.57:744][484]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Drunken_Pirates
+[2026.04.22-12.33.57:746][484]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Drunken_Pirates)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.22-12.33.57:746][484]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.22-12.33.57:746][484]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.22-12.33.57:746][484]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.22-12.33.57:749][484]LogWorldPartition: Display: WorldPartition initialize took 2.810 ms (total: 7.26 sec)
+[2026.04.22-12.33.57:750][484]LogPlayLevel: PIE: World Init took: (0.005008s)
+[2026.04.22-12.33.57:750][484]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.22-12.33.57:750][484]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.22-12.33.57:750][484]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.22-12.33.57:750][484]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.22-12.33.57:750][484]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.22-12.33.57:750][484]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.22-12.33.57:752][484]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.22-12.33.57:809][484]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.04.22-12.33.57:810][484]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.22-12.33.57:810][484]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.22-12.33.57:810][484]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.22-12.33.57:810][484]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.04.22-12.33.57:810][484]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.04.22-12.33.57:812][484]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.04.22-12.33.57:812][484]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.04.22-12.33.57:812][484]LogInit: FAudioDevice initialized with ID 9.
+[2026.04.22-12.33.57:812][484]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_Drunken_Pirates'.
+[2026.04.22-12.33.57:812][484]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.04.22-12.33.57:815][484]LogLoad: Game class is 'BP_GmDrunkenPirate_C'
+[2026.04.22-12.33.57:820][484]LogWorld: Bringing World /Game/ThirdPerson/Levels/UEDPIE_0_Lvl_Drunken_Pirates.Lvl_Drunken_Pirates up for play (max tick rate 0) at 2026.04.22-13.33.57
+[2026.04.22-12.33.57:821][484]LogWorld: Bringing up level for play took: 0.004634
+[2026.04.22-12.33.57:823][484]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2026.04.22-12.33.57:839][484]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2026.04.22-12.33.57:839][484]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.04.22-12.33.57:840][484]PIE: Server logged in
+[2026.04.22-12.33.57:842][484]PIE: Play in editor total start time 0.141 seconds.
+[2026.04.22-12.33.57:887][484]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.22-12.34.00:065][640]Cmd: ToggleDebugCamera
+[2026.04.22-12.34.04:435][955]Cmd: ToggleDebugCamera
+[2026.04.22-12.34.05:585][ 38]Cmd: ToggleDebugCamera
+[2026.04.22-12.34.18:814][992]Cmd: FreezeRendering
+[2026.04.22-12.34.18:815][992]LogConsoleResponse: Display: Freezing Foliage Culling.
+[2026.04.22-12.34.18:873][995]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.04.22-12.34.20:637][133]Set new viewmode: Unlit
+[2026.04.22-12.34.20:651][134]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2026.04.22-12.34.20:651][134]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2026.04.22-12.34.20:651][134]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2026.04.22-12.34.20:670][134]LogWindows: Error: appError called: Assertion failed: ViewState->bIsFrozenViewMatricesCached [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\ScenePrivate.h] [Line: 1546] 
+
+
+[2026.04.22-12.34.20:670][134]LogWindows: Windows GetLastError: The operation completed successfully. (0)
