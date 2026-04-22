@@ -2828,13 +2828,13 @@ ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:EditorHashDef
 ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:RuntimeHashDefaultClass:0=/Script/CoreUObject.Class'/Script/Engine.WorldPartitionRuntimeHashSet'
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:bOffsetPlayerGamepadIds:0=True
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=False
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/ThirdPerson/Start_Screen.Start_Screen
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ThirdPerson/Start_Screen.Start_Screen
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/ThirdPerson/Levels/Lvl_Start_Screen.Lvl_Start_Screen
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ThirdPerson/Levels/Lvl_Start_Screen.Lvl_Start_Screen
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Game/ThirdPerson/Blueprints/BP_wine.BP_wine_C
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Game/ThirdPerson/Start_Screen.Start_Screen
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=None
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:ThreePlayerSplitscreenLayout:0=FavorTop
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:TransitionMap:0=
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:TwoPlayerSplitscreenLayout:0=Horizontal
@@ -3364,7 +3364,7 @@ ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:P
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildConfig:0=(("Windows", PPBC_Shipping))
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildTarget:0=()
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformTargetFlavorName:0=(("Android", "Android_ASTC"))
-ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/2406616/Documents/GitHub/Team_4_Plunder_Party")
+ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/2406616/Downloads")
 ConfigSystem.<Editor>.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 ConfigSystem.<Editor>.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 ConfigSystem.<Editor>.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true
@@ -3808,6 +3808,9 @@ ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.RejectionAntiAlias
 ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.ReprojectionField:0=1
 ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.Resurrection:0=1
 ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.ShadingRejection.Flickering:0=1
+ConfigSystem.<Editor>.Scalability:EffectsQuality@0:fx.Niagara.QualityLevel:0=0
+ConfigSystem.<Editor>.Scalability:EffectsQuality@1:fx.Niagara.QualityLevel:0=1
+ConfigSystem.<Editor>.Scalability:EffectsQuality@2:fx.Niagara.QualityLevel:0=2
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:fx.Niagara.QualityLevel:0=3
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.DetailMode:0=3
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:0=1.0
@@ -3839,6 +3842,7 @@ ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.SSS.SampleSet:0=2
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.SSS.Scale:0=1
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.TranslucencyLightingVolumeDim:0=64
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.TranslucencyVolumeBlur:0=1
+ConfigSystem.<Editor>.Scalability:EffectsQuality@Cine:fx.Niagara.QualityLevel:0=4
 ConfigSystem.<Editor>.Scalability:FoliageQuality@3:foliage.DensityScale:0=1.0
 ConfigSystem.<Editor>.Scalability:FoliageQuality@3:grass.DensityScale:0=1.0
 ConfigSystem.<Editor>.Scalability:GlobalIlluminationQuality@3:r.AOQuality:0=2
@@ -4799,11 +4803,11 @@ LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSetting
 LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSupportsVulkan:0=true
 LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSupportsVulkanSM5:0=false
 LocalIniFile.IOS.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bSupportsMetalMRT:0=False
-LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ThirdPerson/Start_Screen.Start_Screen
-LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ThirdPerson/Levels/Lvl_Start_Screen.Lvl_Start_Screen
+LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Game/ThirdPerson/Blueprints/BP_wine.BP_wine_C
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
-LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Game/ThirdPerson/Start_Screen.Start_Screen
+LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=None
 LocalIniFile.Windows.Engine:Core.System:CanUseUnversionedPropertySerialization:0=True
 LocalIniFile.Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=None
 LocalSingleIniFile.Android.../../../Engine/Config/Android/DataDrivenPlatformInfo.ini:DataDrivenPlatformInfo:AutoSDKPath:0=Android

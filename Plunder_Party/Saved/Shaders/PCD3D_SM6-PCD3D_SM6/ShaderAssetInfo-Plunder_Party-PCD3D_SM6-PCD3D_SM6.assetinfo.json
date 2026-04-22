@@ -200,6 +200,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "6E66C33F1A6C7C5D673225A87E3AFA02E46216C3",
+			"Assets": [
+				"/NiagaraFluids/Materials/Grid3D/M_DebugVolumeSlice"
+			]
+		},
+		{
+			"ShaderMapHash": "22F45941AC907B91277213C5A9375FF1D595BCA2",
+			"Assets": [
+				"/NiagaraFluids/Materials/Grid3D/M_3DGas_Base"
+			]
+		},
+		{
 			"ShaderMapHash": "F0459A41A068B4911719A3BF964E0FCD4C556A01",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
@@ -303,6 +315,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "1FD5A56BA79198033061CDB705E3A14FBC1B02B5",
+			"Assets": [
+				"/Game/Medieval_Tavern/Materials/M_Props"
+			]
+		},
+		{
 			"ShaderMapHash": "B88BC16C27618F0D621EBEC8D38047056091AEFA",
 			"Assets": [
 				"/Engine/EditorMaterials/Dataflow/DataflowVertexMaterial"
@@ -353,7 +371,14 @@
 		{
 			"ShaderMapHash": "84A79C7E84E8594AD3C32DCDA4042530883BFB3B",
 			"Assets": [
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001"
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Carpet_003",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Metal_001_Colum_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_004",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Bar_002",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Beam_002",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Colum_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_003_Bar_002"
 			]
 		},
 		{
@@ -418,6 +443,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "ABAFAC9420D7212119B272297048AE368A6F4F7A",
+			"Assets": [
+				"/NiagaraFluids/Templates/Gas/3D/Systems/Grid3D_Gas_Fire"
+			]
+		},
+		{
 			"ShaderMapHash": "EF9EB695E547411658689AE577A60B3C6E5F380A",
 			"Assets": [
 				"/Engine/BasicShapes/BasicShapeMaterial"
@@ -433,6 +464,12 @@
 			"ShaderMapHash": "4FC00A9B205CE57E2888DB8FC6876718871E7BF0",
 			"Assets": [
 				"/Engine/EditorLandscapeResources/LandscapeDirtyMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B45B2AA0132D05882FFE7E26A6394B233FDCDB9F",
+			"Assets": [
+				"/NiagaraFluids/Materials/Utility/M_SolidParticle"
 			]
 		},
 		{
@@ -576,6 +613,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0346D6D1E4B1926B1D9CF405D6958BBAAA3DD545",
+			"Assets": [
+				"/NiagaraFluids/Templates/Gas/3D/Systems/Grid3D_Gas_Fire"
+			]
+		},
+		{
 			"ShaderMapHash": "551AFDD49C0051B65E663E2C685644B37126FC7A",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend"
@@ -645,6 +688,12 @@
 			"ShaderMapHash": "085E81E44C25D3AED1243E354C2C3502C523C835",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "A805AEEAD5B1C075C23B5D3870A7AF80D4A5E6CC",
+			"Assets": [
+				"/NiagaraFluids/Templates/Gas/3D/Systems/Grid3D_Gas_Fire"
 			]
 		},
 		{

@@ -38,6 +38,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "15802C06549C441E8FEF2436EA19AC7E4E51F6A6",
+			"Assets": [
+				"/NiagaraFluids/Templates/Gas/3D/Systems/Grid3D_Gas_Fire"
+			]
+		},
+		{
 			"ShaderMapHash": "4FD60A08359EBB814D6F60614147B6A1CCC75493",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Opaque_DS"
@@ -156,6 +162,12 @@
 			"ShaderMapHash": "81230A3C8446AD2E2406E59D7602398486398A3C",
 			"Assets": [
 				"/Game/Smugglers_cove/materials/master_materials/M_terrain_master"
+			]
+		},
+		{
+			"ShaderMapHash": "0C0F9E3CC83A28D2ECC8089886D7337DB87F4063",
+			"Assets": [
+				"/Game/Medieval_Tavern/Materials/M_Props"
 			]
 		},
 		{
@@ -303,6 +315,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "19850B6AC7BADAB4E41749A2FD1C84C4B545ABDA",
+			"Assets": [
+				"/NiagaraFluids/Materials/Grid3D/M_DebugVolumeSlice"
+			]
+		},
+		{
 			"ShaderMapHash": "5161106B343B9B1726E34EA445F98B421DBE6EC9",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_SpecularGlossiness"
@@ -378,7 +396,14 @@
 		{
 			"ShaderMapHash": "C2BB0387A3F13B2073CCE94AEC334B44BB983DEF",
 			"Assets": [
-				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001"
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Carpet_003",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Metal_001_Colum_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_001_Wall_004",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Bar_002",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Beam_002",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_002_Colum_001",
+				"/Game/Medieval_Tavern/Materials/Material_Instance/MI_Wood_003_Bar_002"
 			]
 		},
 		{
@@ -492,6 +517,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A99F62AE4C54E742092C4823A7B6FEC54FD68CD9",
+			"Assets": [
+				"/NiagaraFluids/Templates/Gas/3D/Systems/Grid3D_Gas_Fire"
+			]
+		},
+		{
 			"ShaderMapHash": "550DCAAF26852A2CF1C1BE3301ED1E32617547A8",
 			"Assets": [
 				"/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals"
@@ -516,6 +547,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "9714AFB9C3B9D3EDE3EC714EF7F99730AD5C15E3",
+			"Assets": [
+				"/NiagaraFluids/Materials/Grid3D/M_3DGas_Base"
+			]
+		},
+		{
 			"ShaderMapHash": "7294E6B9B8924349C3B219681BC14C56BEE63631",
 			"Assets": [
 				"/CameraCalibrationCore/Materials/M_DefaultOddSquare"
@@ -531,6 +568,12 @@
 			"ShaderMapHash": "AE234BBB5CC9B46BEDECA6C854177C318BBFDCA0",
 			"Assets": [
 				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "2C0A64BE4555964D811B09848E6E79D0ED479F7A",
+			"Assets": [
+				"/NiagaraFluids/Materials/Utility/M_SolidParticle"
 			]
 		},
 		{
@@ -604,6 +647,12 @@
 			"ShaderMapHash": "21B87DCA8CF7639C8F756B27A83D55DA8685DA7E",
 			"Assets": [
 				"/Game/Characters/Mannequins/Materials/M_Mannequin"
+			]
+		},
+		{
+			"ShaderMapHash": "4200CDCE9EBE0DE5FEE4F8FACB5E83E04299C314",
+			"Assets": [
+				"/NiagaraFluids/Templates/Gas/3D/Systems/Grid3D_Gas_Fire"
 			]
 		},
 		{
