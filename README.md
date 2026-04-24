@@ -18,7 +18,7 @@
 ## Abstract *(Approx. 5–10% of word count)*
 
  
- In this Project I was tasked in a group of games designer students to create three party minigames for a game called "Plunder Party". First the designer think of ideas for the game, which include, the game's name, the gmae rules, theme for that game and obstacles with game. After the game ideas had been finalize then we pick three of the  ideas to make for the games. I was tasked with game called "drunken sailor". In this Minigame the players try to push a rum bottle into other players whlist moving around to avoid the bottle themselves.
+ In this project, I was tasked in a group of game designer students to create three party minigames for a game called "Plunder Party". First, the designer thinks of ideas for the game, which include the game's name, the game rules, the theme for that game and obstacles in the game. After the game ideas had been finalised, we picked three of the  ideas to make the games. I was tasked with a game called "Drunken Sailor". In this minigame, the players try to push a rum bottle into other players while moving around to avoid the bottle themselves.
 
 ### _and final outcome. What was the intent of your work?_
 
