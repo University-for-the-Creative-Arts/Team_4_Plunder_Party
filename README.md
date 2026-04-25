@@ -18,7 +18,7 @@
 ## Abstract *(Approx. 5–10% of word count)*
 
  
- In this project, I was tasked in a group of game designer students to create three party minigames for a game called "Plunder Party". First, the designer thinks of ideas for the game, which include the game's name, the game rules, the theme for that game and obstacles in the game. After the game ideas had been finalised, we picked three of the  ideas to make the games. I was tasked with a game called "Drunken Sailor". In this minigame, the players try to push a rum bottle into other players while moving around to avoid the bottle themselves.
+ In this project, I was tasked in a group of game designer students to create three party minigames for a game called "Plunder Party". First, the designer thinks of ideas for the game, which include the game's name, the game rules, the theme for that game and obstacles in the game. After the game ideas had been finalised, we picked three of the  ideas to make the games. I was tasked with a game called "Drunken Sailor". In this minigame, the players try to push a rum bottle into other players while moving around to avoid the bottle themselves. The final outcome for this project is to learn how multiplayer/couch coop works, making the additional player controls, Health bar(the soberness bar in the game) and the theme.
 
 ### _and final outcome. What was the intent of your work?_
 
@@ -29,7 +29,8 @@
 ### What sources or references have you identified as relevant to this task?
 
  1. internet research from wikihow-it being secondly reserach- it giveing me an ooderstanding of what part to add to the game
- 2. 
+ 2. pirate conntations
+ 3. scene ideas
  
 
 Reflect on the **type** and **relevance** of sources explored. Justify your research direction in relation to the task brief and target outcomes.
