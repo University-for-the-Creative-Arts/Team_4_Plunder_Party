@@ -1,13 +1,7 @@
-
-
 # **Unit Name:**  Team 4 Plunder Party
-**Student Names and IDs:** \[Your Full Name & UCA ID]
+**Student Names and IDs:** \Kikachukwu kifordu 2406616
 
 **Total Word Count:** \[XXXX]
-
-**API Reference Link:** \[URL]
-
-**User Guide Link:** \[URL]
 
 **Build Link:** \[URL or Embed]
 
@@ -18,18 +12,18 @@
 ## Abstract *(Approx. 5–10% of word count)*
 
  
- In this project, I was tasked in a group of game designer students to create three party minigames for a game called "Plunder Party". First, the designer thinks of ideas for the game, which include the game's name, the game rules, the theme for that game and obstacles in the game. After the game ideas had been finalised, we picked three of the  ideas to make the games. I was tasked with a game called "Drunken Sailor". In this minigame, the players try to push a rum bottle into other players while moving around to avoid the bottle themselves. The final outcome for this project is to learn how multiplayer/couch coop works, making the additional player controls, Health bar(the soberness bar in the game) and the theme.
-
-### _and final outcome. What was the intent of your work?_
-
+ In this project, I was tasked in a group of game designer students to create three party minigames for a game called "Plunder Party". First, the designer thinks of ideas for the game, which include the game's name, the game rules, the theme for that game and obstacles in the game. After the game ideas had been finalised, we picked three of the  ideas to make the games. I was tasked with a game called "Drunken Sailor". In this minigame, the players try to push a rum bottle into other players while moving around to avoid the bottle themselves. The final outcome for this project is to learn how multiplayer/couch coop works, making the additional player controls, the health bar(the soberness bar in the game) and the theme.
 ---
 
 ## Research *(Approx. 20-30% of word count)*
 
 ### What sources or references have you identified as relevant to this task?
 
- 1. internet research from wikihow-it being secondly reserach- it giveing me an ooderstanding of what part to add to the game
- 2. pirate conntations
+
+
+
+ 1. internet research from wikihow-it being secondly reserach- it giveing me an ooderstanding of what part to add to the game(sec- for bases,non hotpotato-out of skill range,theme being inline/fun spin)
+ 2. pirate conntations(sec from fab-great intergration, pri-time comsuming )
  3. scene ideas
  
 
@@ -50,7 +44,6 @@ For each source, provide:
 You may include both **academic resources** and **industry examples** (e.g. documentation, games, developer talks). You are encouraged to include plenty of images, videos and diagrams.
 
 > You should have at least 1 game source as inspiration, 1 documentation/tutorial source and 1 academic source at a minimum.
-
 ---
 
 ## Implementation *(Approx. 30–40% of word count)*
