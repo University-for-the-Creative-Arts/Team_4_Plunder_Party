@@ -8,7 +8,6 @@
 **Video Demonstration Link:** \[URL or Embed]
 
 ---
-
 ## Abstract *(Approx. 5–10% of word count)*
 
  
@@ -19,11 +18,8 @@
 
 ### What sources or references have you identified as relevant to this task?
 
-
-
-
  1. internet research from wikihow-it being secondly reserach- it giveing me an ooderstanding of what part to add to the game(sec- for bases,non hotpotato-out of skill range,theme being inline/fun spin)
- 2. pirate conntations(sec from fab-great intergration, pri-time comsuming )
+ 2. pirate conntations(sec from fab-great intergration, pri-time comsuming, apropiate ui- texxt & game vs set)
  3. scene ideas
  
 
