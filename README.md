@@ -1,7 +1,7 @@
 # **Unit Name:**  Team 4 Plunder Party
 **Student Names and IDs:** Kikachukwu Kifordu 2406616
 
-**Total Word Count:** [XXXX]
+**Total Word Count:** [616]
 
 **Build Link:** \[URL or Embed]
 
@@ -47,70 +47,9 @@ What parts did or could change about the physics material:
 
 This helped the object to move about more freely and ricochet off the wall to make the game faster and more lively for the players. Sadly, because of the bounciness of the object, there is a chance that it will bounce upwards at a certain angle it bounce upwards. This could launch the object, making it unplayable without a reset of the game.
 
-
-
-
-Reflect on the **type** and **relevance** of sources explored. Justify your research direction in relation to the task brief and target outcomes.
-
-* What types of sources did you explore and why?
-* Which types of sources did you avoid and why?
-* How does the research relate to the user experience, technical approach, or creative aim?
-
-#### Sources
-
-For each source, provide:
-
-1. An **opening paragraph** describing the source's creator/publisher, reputation, and relevance.
-2. A **bullet list** of what you analysed or learned from it.
-3. A **closing paragraph** evaluating its usefulness or limitations.
-
-You may include both **academic resources** and **industry examples** (e.g. documentation, games, developer talks). You are encouraged to include plenty of images, videos and diagrams.
-
-> You should have at least 1 game source as inspiration, 1 documentation/tutorial source and 1 academic source at a minimum.
 ---
 
-## Implementation *(Approx. 30–40% of word count)*
-
-### What was your development process, and how did decisions evolve?
-
-Describe your technical and creative approach, including:
-
-* Planning, ideation, and iteration
-* Feedback received and how it was integrated
-* New tools, workflows, or systems explored
-
-#### Example Code Snippet
-
-```csharp
-using UnityEngine;
-
-public class HelloWorld : MonoBehaviour 
-{
-    public void Start() 
-    {
-        Debug.Log("Hello World!");
-    }
-}
-```
-
-*Figure 2: Example code snippet using Unity's `Start()` method.*
-
-#### Example Image
-
-![Example](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 3: Unreal packaging menu interface.*
-
-### What creative or technical methods did you try?
-
-Were any methods unfamiliar or experimental? Did they succeed? Did they change your approach?
-
-### Did you experience any technical challenges?
-
-How did you address problems, bugs, or limitations?
-
----
-
-## Testing *(Approx. 10–15% of word count)*
+## Testing 
 
 | Testers | How was menu buttons | Why? for Q1| How was pause buttons?| Why? for Q2 | How was player controlls | Why? for Q3 | How much did you like the level's look?| Feedback |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -124,27 +63,19 @@ How did you address problems, bugs, or limitations?
 
 ---
 
-## Critical Reflection *(Approx. 10–15% of word count)*
+## Critical Reflection - 95 Words
 
 ### What went well?
-
-* What strengths or successes stood out in the final piece?
-* Did anything exceed expectations?
-
-### What could be improved or done differently next time?
-
-* Were there things that didn’t work? Why?
-* What would you try differently with more time or resources?
+The part that went well the most was players enjoying the gameplay and the colours of the players/HP bar. I was strong with the UI systems within the game. One thing the exeeded my Expectations was making my first multiplayer game, and it was functioning well. I could improve my knowledge of player self-action. Still to this point, I still do not know why in the build the healthbars(soberness bar)n did not go down visibly. if could try something different next time, I would ask for help more from people I know.
 
 ---
 
 ## Bibliography
 
-Please use [UCA's Harvard Referencing Format](https://mylibrary.uca.ac.uk/referencing) for all citations.
+    MMatteo Guarnaccia (2016) Pirates Culture and Style from the 15th Century to the Present. (s.l.): Corte Madera Gingko Press Inc.
+    Shaun Codes (2025) Unreal Engine 5 Physics Tutorial: Bouncy Ball. At: https://www.youtube.com/watch?v=XpHI2aqNA08&list=PLap6Vex5Z8RleVy-lLvA5Y6qNoMr669BW&index=28 (Accessed 01/05/2026).
+    Wells , J. (2025) How to Play Hot Potato: 9 Steps (with Pictures). At: https://www.wikihow.com/Play-Hot-Potato
 
-Example:
-
-> Rollings, A. and Adams, E. (2003) *Andrew Rollings and Ernest Adams on Game Design*. New Riders Publishing.
 
 ---
 
@@ -162,9 +93,8 @@ Example:
 
 > The following assets were created or modified with the use of GPT-4o:
 >
-> * `Test.cs` – generated structure with manual revision
-> * `UIAudioManager.cs` – refactored with Copilot suggestions
-> * `DevelopmentJournal.html` – generated layout and headings
+> * `Tricorn hat lowpoly` - made by Aartee
+> * `Skull Pirate Bracers` - made by Get Dead Entertainment
 
 ---
 
