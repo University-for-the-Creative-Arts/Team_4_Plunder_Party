@@ -18,10 +18,21 @@ In this project, I was tasked in a group of game designer students to create thr
 
 ### What sources or references have you identified as relevant to this task?
 
- 1. internet research from wikihow-it being secondly reserach- it giveing me an ooderstanding of what part to add to the game(sec- for bases,non hotpotato-out of skill range,theme being inline/fun spin)
- 2. pirate conntations(sec from fab-great intergration, pri-time comsuming, apropiate ui- texxt & game vs set)
- 3. scene ideas
- 
+ 1.theme being inline/fun spin)
+ 3. pirate conntations(sec from fab-great intergration, pri-time comsuming, apropiate ui- texxt & game vs set)
+ 4. scene ideas
+
+One of my first pieces of secondary research was to investigate how the game "Hot Potato" (Wells, 2025) works online. I did this to see how it works, what some of the rules are, and to understand the features of the game that could be added. This was done because of my lack of information about the specifics of how the game functions.
+
+Items from the game that I thought to use/look into:
+* passing an object amongst the players
+* add some sort of time
+* having the player become out of if stuck with the object for too long
+
+This info was quite useful to me because of the rules and variations the game had that could use drunken sailors. One of the problems that I came across was my own skill level, which made it so did not know how to integrate some of the features in the project's game. However, it still gave me a good base to work from.
+
+
+
 
 Reflect on the **type** and **relevance** of sources explored. Justify your research direction in relation to the task brief and target outcomes.
 
