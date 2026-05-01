@@ -8,18 +8,15 @@
 **Video Demonstration Link:** \[URL or Embed]
 
 ---
-## Abstract - 130 words
+## Abstract - 130 Words
 
 In this project, I was tasked in a group of game designer students to create three party minigames for a game called "Plunder Party". First, the designer thinks of ideas for the game, which include the game's name, the game rules, the theme for that game and obstacles in the game. After the game ideas had been finalised, we picked three of the  ideas to make the games. I was tasked with a game called "Drunken Sailor". In this minigame, the players try to push a rum bottle into other players while moving around to avoid the bottle themselves. The final outcome for this project is to learn how multiplayer/couch coop works, making the additional player controls, the health bar(the soberness bar in the game) and the theme.
 
 ---
 
-## Research *(Approx. 20-30% of word count)*
+## Research - 486 Words
 
 ### What sources or references have you identified as relevant to this task?
-
- 1. theme being inline/fun spin)
- 2. scene ideas (game vs set)
 
 One of my first pieces of secondary research was to investigate how the game "Hot Potato" (Wells, 2025) works online. I did this to see how it works, what some of the rules are, and to understand the features of the game that could be added. This was done because of my lack of information about the specifics of how the game functions.
 
@@ -39,7 +36,17 @@ What could I find:
 
 This helped the aesthetic of the players and makes it and made it more appropriate for the theme of the game in its entirety and for "Drunken Sailor" itself. It was very useful for saving time on these models as opposed to creating them from scratch, which led to a quicker pipeline of workload. A limitation of this is that some assets are not separate in their download and would need to be manually separated using a different software, which limited the number of physical attachments that I could use that were appropriate to connect to the player.
 
-Another Piece of my Secondary Research was finding out how to make the object within the game move around more easily inside the scene of the game 
+Another Piece of my Secondary Research was finding out how to make the object within the game move around more easily inside the scene of the game. I went about searching for videos that would or could solve these bumps down the road. I did find a tutorial video on how to affect the physics of an object (Shaun Codes, 2025) in Unreal Engine 5 by using something called a physics material.
+
+What parts did or could change about the physics material:
+* Friction
+* Density
+* Surface Type
+* Strength
+* Friction Combine Mode
+
+This helped the object to move about more freely and ricochet off the wall to make the game faster and more lively for the players. Sadly, because of the bounciness of the object, there is a chance that it will bounce upwards at a certain angle it bounce upwards. This could launch the object, making it unplayable without a reset of the game.
+
 
 
 
@@ -64,7 +71,7 @@ You may include both **academic resources** and **industry examples** (e.g. docu
 
 ## Implementation *(Approx. 30–40% of word count)*
 
-### What was your development process and how did decisions evolve?
+### What was your development process, and how did decisions evolve?
 
 Describe your technical and creative approach, including:
 
@@ -104,15 +111,6 @@ How did you address problems, bugs, or limitations?
 ---
 
 ## Testing *(Approx. 10–15% of word count)*
-
-### What testing methods did you use?
-
-* Did you conduct internal testing, peer testing, or user testing?
-* What were your key goals in testing?
-* What did you observe or learn from testing?
-* How did testing influence the final result?
-
-You may include screenshots, graphs, tables, or embedded videos to demonstrate tests and results.
 
 | Testers | How was menu buttons | Why? for Q1| How was pause buttons?| Why? for Q2 | How was player controlls | Why? for Q3 | How much did you like the level's look?| Feedback |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
