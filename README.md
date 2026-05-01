@@ -37,9 +37,9 @@ What could I find:
 * black braces with a skull
 * pirate ammo chest belt
 
-This helped the aesthetic of the players and makes it and made it more appropriate for the theme of the in its entirety and for "Drunken Sailor" itself. It was very useful for saving time on these models as opposed to creating them from scratch, which led to a quicker pipeline of workload. A limitation of this is that some assets are not separate in their download and would need to be manually separated using a different software, which limited the number of physical attachments that I could use that were appropriate to connect to the player.
+This helped the aesthetic of the players and makes it and made it more appropriate for the theme of the game in its entirety and for "Drunken Sailor" itself. It was very useful for saving time on these models as opposed to creating them from scratch, which led to a quicker pipeline of workload. A limitation of this is that some assets are not separate in their download and would need to be manually separated using a different software, which limited the number of physical attachments that I could use that were appropriate to connect to the player.
 
-
+Another Piece of my Secondary Research was finding out how to make the object within the game move around more easily inside the scene of the game 
 
 
 
@@ -114,13 +114,13 @@ How did you address problems, bugs, or limitations?
 
 You may include screenshots, graphs, tables, or embedded videos to demonstrate tests and results.
 
-| Tester | Platform | Device Specs           | Test Type      | Bugs Found | Avg. FPS | Severity (1–5) | Repro Steps Provided | Feedback Summary                                                       |
-| ------ | -------- | ---------------------- | -------------- | ---------- | -------- | -------------- | -------------------- | ---------------------------------------------------------------------- |
-| User A | Chrome   | i7, GTX 1060, 16GB RAM | Internal (Dev) | 3          | 60       | 2, 3, 4        | Yes                  | “Controls are responsive. Minor stutter near large particle emitters.” |
-| User B | Firefox  | Ryzen 5, 8GB RAM       | Peer Playtest  | 2          | 58       | 1, 2           | No                   | “Menu system works well, but level loading feels slow.”                |
-| User C | Edge     | i5, Intel UHD 620      | External User  | 5          | 45       | 2, 3, 4, 3, 2  | Yes                  | “Performance drops during explosions; some UI overlaps text.”          |
-| User D | Chrome   | M1 MacBook Air         | Guided Test    | 1          | 62       | 2              | Yes                  | “Tutorial is clear. Suggested adding a visual checkpoint marker.”      |
-| User E | Safari   | iPhone 12 Safari       | Blind Test     | 4          | 50       | 2, 3, 3, 4     | Partial              | “Enjoyed art style. Unclear level goals; needed more on-screen hints.” |
+| Testers | How was menu buttons | Why? for Q1| How was pause buttons?| Why? for Q2 | How was player controlls | Why? for Q3 | How much did you like the level's look?| Feedback |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Blue | 4 | Its pretty cool in its design! | 4 | It feels fluid | 5 | N/A | N/A | N/A |
+| slitavr | 5 | It’s easy to understand | 5 | Pretty clear and concise | 5 | N/A | N/A |N/A |
+| Ritesh | 4 | It was labed start I think only the keyboard player could only select it tho | 3 | It would stop working if you tried to go the main menu whilst in game | 4 |It was really fun even tho it was pretty basic but I think the physical and game is fun with friends| 5 | For sure make the menu button more doable and the health of certain characters |
+| Elaine | 5 | Easy to understand | 5 | Clear direction | 4 | Very smooth, not delayed. However it's quite hard to kick the bottle and once you get it you can't throw it until 5 seconds are over. | 4 | You could make players able to throw the bottle to other players within the 5 seconds they have the bottle |
+| Lewis | 5 | It's easy to understand | 3 | The layout was fine, but the return to main menu button didn't work | 4 | The controls were really good, reminded me of gangbeats a little bit, the only thing I'd say is make the jump higher | 4 | I would say add a roof to the level to stop the bottle from getting lanched out of the level |
 
 *Figure 4: User Testing Data.*
 
