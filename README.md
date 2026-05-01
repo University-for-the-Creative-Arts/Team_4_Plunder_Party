@@ -18,9 +18,8 @@ In this project, I was tasked in a group of game designer students to create thr
 
 ### What sources or references have you identified as relevant to this task?
 
- 1.theme being inline/fun spin)
- 3. pirate conntations(sec from fab-great intergration, pri-time comsuming, apropiate ui- texxt & game vs set)
- 4. scene ideas
+ 1. theme being inline/fun spin)
+ 2. scene ideas (game vs set)
 
 One of my first pieces of secondary research was to investigate how the game "Hot Potato" (Wells, 2025) works online. I did this to see how it works, what some of the rules are, and to understand the features of the game that could be added. This was done because of my lack of information about the specifics of how the game functions.
 
@@ -30,6 +29,16 @@ Items from the game that I thought to use/look into:
 * having the player become out of if stuck with the object for too long
 
 This info was quite useful to me because of the rules and variations the game had that could use drunken sailors. One of the problems that I came across was my own skill level, which made it so did not know how to integrate some of the features in the project's game. However, it still gave me a good base to work from.
+
+An Additional piece of my Secondary Research was pirates(Matteo Guarnaccia, 2016), how they looked and what connotations of pirate that could link back. With the information on how they looked, I searched up on the website Fab.com to see what clothing assets I could find and attach to the player and what text font I could use.
+
+What could I find:
+* Pirate hat
+* black braces with a skull
+* pirate ammo chest belt
+
+This helped the aesthetic of the players and makes it and made it more appropriate for the theme of the in its entirety and for "Drunken Sailor" itself. It was very useful for saving time on these models as opposed to creating them from scratch, which led to a quicker pipeline of workload. A limitation of this is that some assets are not separate in their download and would need to be manually separated using a different software, which limited the number of physical attachments that I could use that were appropriate to connect to the player.
+
 
 
 
