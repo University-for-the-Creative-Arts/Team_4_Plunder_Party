@@ -3,10 +3,6 @@
 
 **Total Word Count:** [616]
 
-**Build Link:** \[URL or Embed]
-
-**Video Demonstration Link:** \[URL or Embed]
-
 ---
 ## Abstract - 130 Words
 
